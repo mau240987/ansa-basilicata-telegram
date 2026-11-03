@@ -1,0 +1,65 @@
+name: RSS to Telegram
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Stampa i messaggi senza inviarli e senza salvare lo stato"
+        type: boolean
+        default: false
+      bootstrap_send_last:
+        description: "Solo al primo avvio (stato assente): pubblica subito gli ultimi N articoli"
+        type: number
+        default: 0
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rss-to-telegram
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Pubblica le nuove notizie
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: "@ansabasilicata"
+          FEED_URL: "https://www.ansa.it/basilicata/notizie/basilicata_rss.xml"
+          STATE_FILE: "state/sent.json"
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          BOOTSTRAP_SEND_LAST: ${{ inputs.bootstrap_send_last || 0 }}
+        run: python3 rss_to_telegram.py
+
+      - name: Salva lo stato
+        if: always() && inputs.dry_run != true
+        run: |
+          if [ ! -f state/sent.json ]; then
+            echo "Nessuno stato da salvare"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/sent.json
+          if git diff --cached --quiet; then
+            echo "Stato invariato"
+            exit 0
+          fi
+          git commit -m "Aggiorna stato feed [skip ci]"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 5))
+          done
+          echo "Push dello stato fallito"
+          exit 1
