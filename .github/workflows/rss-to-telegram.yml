@@ -12,7 +12,7 @@ on:
       bootstrap_send_last:
         description: "Solo al primo avvio (stato assente): pubblica subito gli ultimi N articoli"
         type: number
-        default: 0
+        default: 64
 
 permissions:
   contents: write
