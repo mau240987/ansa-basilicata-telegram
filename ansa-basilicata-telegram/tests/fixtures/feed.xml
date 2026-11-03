@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>ANSA.it - Basilicata</title>
+    <link>https://www.ansa.it/basilicata/</link>
+    <description>Notizie di test</description>
+    <item>
+      <title>Notizia D: Potenza &amp; Matera &lt;oggi&gt; "speciale"</title>
+      <link>https://www.ansa.it/basilicata/notizie/d.html?a=1&amp;b=2</link>
+      <guid>https://www.ansa.it/basilicata/notizie/d.html?a=1&amp;b=2</guid>
+      <pubDate>Mon, 02 Nov 2026 12:00:00 +0100</pubDate>
+      <description>Descrizione D</description>
+    </item>
+    <item>
+      <title>Notizia C senza guid</title>
+      <link>https://www.ansa.it/basilicata/notizie/c.html</link>
+      <pubDate>Mon, 02 Nov 2026 10:30:00 +0100</pubDate>
+      <description>Descrizione C</description>
+    </item>
+    <item>
+      <title>  Notizia   B  </title>
+      <link>https://www.ansa.it/basilicata/notizie/b.html</link>
+      <guid>https://www.ansa.it/basilicata/notizie/b.html</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Descrizione B</description>
+    </item>
+    <item>
+      <title>Notizia A</title>
+      <link>https://www.ansa.it/basilicata/notizie/a.html</link>
+      <guid>https://www.ansa.it/basilicata/notizie/a.html</guid>
+      <pubDate>Sun, 01 Nov 2026 18:00:00 +0100</pubDate>
+      <description>Descrizione A</description>
+    </item>
+  </channel>
+</rss>
