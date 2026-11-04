@@ -76,7 +76,15 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/04/irccs-crob-di-rionero-istituita-la-medicina-nucleare-a-direzione-universitaria_60fb3886-81db-47fb-be93-f7f8abec83f0.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/04/cicala-con-coltivaitalia-opportunita-per-le-filiere-lucane_8c4888c9-fafc-49c2-a98e-651b981e1525.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/04/dl-prezzo-carburanti-amendola-pd-dal-governo-ennesimo-schiaffo-alla-basilicata_16e59ff5-03dc-43b2-ac9b-587579202497.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/04/matera-sport-film-festival-tre-giorni-di-cinema-con-uno-sguardo_245cff43-df88-4cd9-8e1d-ad570b52f267.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/matera-sport-film-festival-tre-giorni-di-cinema-con-uno-sguardo_245cff43-df88-4cd9-8e1d-ad570b52f267.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/mattia-fdi-grazie-al-governo-con-coltivaitalia-oltre-un-miliardo-per-lagricoltura_184e6223-6538-4233-8d76-de898ddd1387.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/prostituzione-a-rionero-in-vulture-sequestrati-225mila-euro-in-contanti_27097bf9-0615-42d3-b6a5-743e395e45e6.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/ripristino-della-diga-del-rendina-via-libera-alla-gara-dappalto_b8e5eba3-5e0b-4bbd-8af6-eb3797a9261a.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/radici-e-futuro-a-potenza-lunpli-basilicata-celebra-i-suoi-primi-40-anni_69719cf1-9272-45bd-9b38-d00da7beb898.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/il-dg-ramunno-dalla-giunta-regionale-lucana-concreto-sostegno-allarpab_f23894a9-07a5-4623-b598-9a2f9d2ebd9e.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/polese-leconomia-circolare-trasformi-i-rifiuti-in-risorse-e-opportunita_c1c596d1-c2cb-4640-a5e3-8575124a97bd.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/carta-dedicata-a-te-galella-sostegno-reale-alle-famiglie-e-ai-negozi-di-vicinato_d434d899-2fa1-40bf-9aa7-3e10625c81c3.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/a-60-anni-dallalluvione-di-firenze-il-ricordo-di-dangelo-una-visione-terribile_fb4c9013-8bbf-404f-bdde-a30a5a8973ea.html"
   ],
   "recent": [
     {
@@ -168,6 +176,54 @@
       "title": "Matera Sport Film Festival, tre giorni di cinema con uno sguardo internazionale",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/matera-sport-film-festival-tre-giorni-di-cinema-con-uno-sguardo_245cff43-df88-4cd9-8e1d-ad570b52f267.html",
       "sent_at": "2026-11-04T13:50:40+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/04/mattia-fdi-grazie-al-governo-con-coltivaitalia-oltre-un-miliardo-per-lagricoltura_184e6223-6538-4233-8d76-de898ddd1387.html",
+      "title": "Mattia (Fdi), grazie al Governo con Coltivaitalia oltre un miliardo per l'agricoltura",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/mattia-fdi-grazie-al-governo-con-coltivaitalia-oltre-un-miliardo-per-lagricoltura_184e6223-6538-4233-8d76-de898ddd1387.html",
+      "sent_at": "2026-11-04T17:45:00+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/04/prostituzione-a-rionero-in-vulture-sequestrati-225mila-euro-in-contanti_27097bf9-0615-42d3-b6a5-743e395e45e6.html",
+      "title": "Prostituzione a Rionero in Vulture, sequestrati 225mila euro in contanti",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/prostituzione-a-rionero-in-vulture-sequestrati-225mila-euro-in-contanti_27097bf9-0615-42d3-b6a5-743e395e45e6.html",
+      "sent_at": "2026-11-04T17:45:00+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/04/ripristino-della-diga-del-rendina-via-libera-alla-gara-dappalto_b8e5eba3-5e0b-4bbd-8af6-eb3797a9261a.html",
+      "title": "Ripristino della Diga del Rendina: via libera alla gara d'appalto",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/ripristino-della-diga-del-rendina-via-libera-alla-gara-dappalto_b8e5eba3-5e0b-4bbd-8af6-eb3797a9261a.html",
+      "sent_at": "2026-11-04T17:45:00+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/04/radici-e-futuro-a-potenza-lunpli-basilicata-celebra-i-suoi-primi-40-anni_69719cf1-9272-45bd-9b38-d00da7beb898.html",
+      "title": "Radici e futuro, a Potenza l'Unpli Basilicata celebra i suoi primi 40 anni",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/radici-e-futuro-a-potenza-lunpli-basilicata-celebra-i-suoi-primi-40-anni_69719cf1-9272-45bd-9b38-d00da7beb898.html",
+      "sent_at": "2026-11-04T17:45:00+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/04/il-dg-ramunno-dalla-giunta-regionale-lucana-concreto-sostegno-allarpab_f23894a9-07a5-4623-b598-9a2f9d2ebd9e.html",
+      "title": "Il dg Ramunno, dalla Giunta regionale lucana concreto sostegno all'Arpab",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/il-dg-ramunno-dalla-giunta-regionale-lucana-concreto-sostegno-allarpab_f23894a9-07a5-4623-b598-9a2f9d2ebd9e.html",
+      "sent_at": "2026-11-04T17:45:00+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/04/polese-leconomia-circolare-trasformi-i-rifiuti-in-risorse-e-opportunita_c1c596d1-c2cb-4640-a5e3-8575124a97bd.html",
+      "title": "Polese, l'economia circolare trasformi i rifiuti in risorse e opportunità",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/polese-leconomia-circolare-trasformi-i-rifiuti-in-risorse-e-opportunita_c1c596d1-c2cb-4640-a5e3-8575124a97bd.html",
+      "sent_at": "2026-11-04T17:45:00+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/04/carta-dedicata-a-te-galella-sostegno-reale-alle-famiglie-e-ai-negozi-di-vicinato_d434d899-2fa1-40bf-9aa7-3e10625c81c3.html",
+      "title": "Carta 'Dedicata a Te': Galella, sostegno reale alle famiglie e ai negozi di vicinato",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/carta-dedicata-a-te-galella-sostegno-reale-alle-famiglie-e-ai-negozi-di-vicinato_d434d899-2fa1-40bf-9aa7-3e10625c81c3.html",
+      "sent_at": "2026-11-04T17:45:00+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/04/a-60-anni-dallalluvione-di-firenze-il-ricordo-di-dangelo-una-visione-terribile_fb4c9013-8bbf-404f-bdde-a30a5a8973ea.html",
+      "title": "A 60 anni dall'alluvione di Firenze il ricordo di D'Angelo, una visione terribile",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/a-60-anni-dallalluvione-di-firenze-il-ricordo-di-dangelo-una-visione-terribile_fb4c9013-8bbf-404f-bdde-a30a5a8973ea.html",
+      "sent_at": "2026-11-04T17:45:00+00:00"
     }
   ],
   "last_digest": null
