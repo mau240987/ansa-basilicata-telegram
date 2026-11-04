@@ -13,7 +13,23 @@ Nessun server, nessuna dipendenza esterna: solo Python e la sua libreria standar
   ```
   <b>Titolo della notizia</b>
   https://www.ansa.it/basilicata/notizie/...
+  #Matera #Policoro
   ```
+
+- **Hashtag dei comuni**: `comuni.py` contiene i 131 comuni lucani (dati ISTAT) e aggiunge fino a 3
+  hashtag per i comuni citati in titolo e sommario, nell'ordine in cui compaiono.
+  - Le maiuscole contano: "Potenza" sì, "la potenza del vento" no; "Vietri di Potenza" non conta come Potenza.
+  - Nomi che sono anche parole comuni o nomi di persona (Bella, Anzi, Tito, Rotonda…, elenco
+    `AMBIGUOUS`) diventano hashtag solo con un contesto geografico: "a Tito", "comune di Anzi", "Tito Scalo".
+  - Latronico è anche il cognome dell'assessore regionale alla Sanità (`SURNAMES`): serve "comune di
+    Latronico", "sindaco di Latronico" o "Latronico Terme".
+  - Forme brevi ("Rionero", "Scanzano") e località che non sono comuni (Metaponto) sono in `ALIASES` ed
+    `EXTRA_PLACES`.
+- **Riepilogo serale**: dal primo giro dopo `DIGEST_HOUR` (ora italiana, ora legale inclusa) il canale
+  riceve i titoli cliccabili delle notizie pubblicate in giornata, al massimo `DIGEST_MAX`, senza
+  anteprima del link. Parte una sola volta al giorno; se l'invio fallisce riprova al giro dopo; nei giorni
+  senza notizie non parte. Titoli e link delle ultime 48 ore sono in `state/sent.json` (`recent`), insieme
+  alla data dell'ultimo riepilogo (`last_digest`). Le notizie uscite dopo il riepilogo non vi rientrano.
 
 - Gli ID già pubblicati (il `guid`, oppure il `link` se il guid manca) sono in `state/sent.json`, che
   conserva gli ultimi 500 ID e viene committato dal workflow solo quando cambia.
@@ -36,6 +52,9 @@ Nessun server, nessuna dipendenza esterna: solo Python e la sua libreria standar
 | `STATE_FILE` | `state/sent.json` | |
 | `BOOTSTRAP_SEND_LAST` | `0` | Usato solo quando lo stato non esiste. |
 | `DRY_RUN` | `0` | `1` stampa i messaggi senza inviarli e senza salvare lo stato. |
+| `DIGEST_HOUR` | `20` | Ora (0-23, ora italiana) del riepilogo serale; `off` lo disattiva. Variabile di repository opzionale. |
+| `DIGEST_MAX` | `10` | Notizie massime nel riepilogo. Variabile di repository opzionale. |
+| `DIGEST_FORCE` | `0` | `1` invia subito il riepilogo di oggi (input `send_digest_now`); vale come riepilogo del giorno. |
 | `TELEGRAM_API_URL` | `https://api.telegram.org` | Solo per i test end-to-end. |
 
 ## Workflow
@@ -43,7 +62,8 @@ Nessun server, nessuna dipendenza esterna: solo Python e la sua libreria standar
 `.github/workflows/rss-to-telegram.yml`:
 
 - gira ogni 15 minuti (`*/15 * * * *`) e a mano da **Actions → RSS to Telegram → Run workflow**, con gli
-  input `dry_run` e `bootstrap_send_last`;
+  input `dry_run`, `bootstrap_send_last` e `send_digest_now` (con `dry_run` mostra solo l'anteprima
+  del riepilogo);
 - `concurrency` senza cancellazione dei run in corso, `timeout-minutes: 10`;
 - l'ultimo step (sempre eseguito, saltato in dry run) committa `state/sent.json` se è cambiato, con
   `[skip ci]` nel messaggio, poi fa `git pull --rebase` e `push`.

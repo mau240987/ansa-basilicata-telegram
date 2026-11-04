@@ -13,6 +13,10 @@ on:
         description: "Solo al primo avvio (stato assente): pubblica subito gli ultimi N articoli"
         type: number
         default: 64
+      send_digest_now:
+        description: "Invia subito il riepilogo di oggi (se non e' un dry run, vale come riepilogo del giorno)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -37,6 +41,10 @@ jobs:
           STATE_FILE: "state/sent.json"
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
           BOOTSTRAP_SEND_LAST: ${{ inputs.bootstrap_send_last || 0 }}
+          # Riepilogo serale: dal primo giro dopo quest'ora (ora italiana). "off" lo disattiva.
+          DIGEST_HOUR: ${{ vars.DIGEST_HOUR || '20' }}
+          DIGEST_MAX: ${{ vars.DIGEST_MAX || '10' }}
+          DIGEST_FORCE: ${{ inputs.send_digest_now && '1' || '0' }}
         run: python3 rss_to_telegram.py
 
       - name: Salva lo stato

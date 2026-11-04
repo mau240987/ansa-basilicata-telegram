@@ -85,6 +85,8 @@ class EndToEndTests(unittest.TestCase):
             "FEED_URL": self.server.url + "/feed.xml",
             "STATE_FILE": self.state,
             "TELEGRAM_API_URL": self.server.url,
+            # il riepilogo serale ha test dedicati: qui non deve dipendere dall'ora di esecuzione
+            "DIGEST_HOUR": "off",
         }
 
     def tearDown(self):
@@ -115,7 +117,7 @@ class EndToEndTests(unittest.TestCase):
         self.assertEqual(texts, [
             "<b>Notizia C senza guid</b>\nhttps://www.ansa.it/basilicata/notizie/c.html",
             '<b>Notizia D: Potenza &amp; Matera &lt;oggi&gt; "speciale"</b>\n'
-            "https://www.ansa.it/basilicata/notizie/d.html?a=1&amp;b=2",
+            "https://www.ansa.it/basilicata/notizie/d.html?a=1&amp;b=2\n#Potenza #Matera",
         ])
         self.assertTrue(all(m["parse_mode"] == "HTML" and m["chat_id"] == "@ansabasilicata"
                             for m in self.server.received))

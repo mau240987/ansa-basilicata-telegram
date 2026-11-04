@@ -9,21 +9,31 @@ Usa solo la libreria standard. Configurazione tramite variabili d'ambiente:
   STATE_FILE           file JSON con gli ID gia' pubblicati (default state/sent.json)
   BOOTSTRAP_SEND_LAST  solo al primo avvio: pubblica subito gli ultimi N articoli
   DRY_RUN=1            stampa i messaggi senza inviarli e senza salvare lo stato
+  DIGEST_HOUR          ora (0-23, ora italiana) del riepilogo serale; "off" lo disattiva (default 20)
+  DIGEST_MAX           notizie massime nel riepilogo (default 10)
+  DIGEST_FORCE=1       invia subito il riepilogo di oggi (vale come riepilogo del giorno)
   TELEGRAM_API_URL     base URL dell'API Telegram (solo per i test)
+
+Ogni notizia riceve gli hashtag dei comuni lucani citati (vedi comuni.py). Una volta al
+giorno, dal primo giro dopo DIGEST_HOUR, esce il riepilogo con i titoli della giornata.
 """
 
 import html
 import http.client
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from zoneinfo import ZoneInfo
+
+import comuni
 
 DEFAULT_FEED_URL = "https://www.ansa.it/basilicata/notizie/basilicata_rss.xml"
 DEFAULT_CHAT_ID = "@ansabasilicata"
@@ -39,6 +49,14 @@ MAX_RETRY_AFTER = 60       # oltre questa attesa ci si ferma e si riprende al gi
 HTTP_TIMEOUT = 30
 DRY_RUN_PREVIEW = 3
 USER_AGENT = "ansa-basilicata-telegram/1.0 (RSS to Telegram; Python urllib)"
+
+LOCAL_TZ = ZoneInfo("Europe/Rome")
+DEFAULT_DIGEST_HOUR = 20
+DEFAULT_DIGEST_MAX = 10
+RECENT_KEEP = timedelta(hours=48)   # quanto conservare titoli e link per il riepilogo
+TELEGRAM_MAX_CHARS = 4096
+MESI = ("gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
+        "settembre", "ottobre", "novembre", "dicembre")
 
 _SECRETS = []
 
@@ -137,6 +155,7 @@ def parse_feed(data):
             "title": title,
             "link": link,
             "published": _timestamp(element.findtext("pubDate")),
+            "summary": _plain_text(element.findtext("description")),
         })
 
     # I feed elencano di norma dal piu' recente: si inverte e poi si ordina in modo
@@ -146,10 +165,48 @@ def parse_feed(data):
     return items
 
 
+def _plain_text(value):
+    """La description puo' contenere HTML: teniamo solo il testo."""
+    text = re.sub(r"<[^>]+>", " ", value or "")
+    return " ".join(html.unescape(text).split())
+
+
 def format_message(item):
     title = html.escape(item["title"] or item["link"], quote=False)
     link = html.escape(item["link"], quote=False)
-    return "<b>%s</b>\n%s" % (title, link)
+    message = "<b>%s</b>\n%s" % (title, link)
+    tags = comuni.hashtags_for(item["title"], item.get("summary", ""))
+    if tags:
+        message += "\n" + " ".join(tags)
+    return message
+
+
+def format_digest(entries, day, max_items=DEFAULT_DIGEST_MAX):
+    """Riepilogo con i titoli cliccabili. None se non c'e' nulla da riassumere."""
+    if not entries:
+        return None
+    shown = entries[-max(max_items, 1):]
+    header = "🗞 <b>Le notizie di oggi in Basilicata</b>\n%d %s %d\n" % (day.day, MESI[day.month - 1], day.year)
+
+    def build(rows):
+        lines = [header]
+        for entry in rows:
+            title = html.escape(entry.get("title") or entry.get("link") or "", quote=False)
+            link = entry.get("link")
+            if link:
+                lines.append('• <a href="%s">%s</a>' % (html.escape(link, quote=True), title))
+            else:
+                lines.append("• %s" % title)
+        hidden = len(entries) - len(rows)
+        if hidden > 0:
+            lines.append("\n…e altre %d sul canale" % hidden)
+        return "\n".join(lines)
+
+    text = build(shown)
+    while len(text) > TELEGRAM_MAX_CHARS and len(shown) > 1:
+        shown = shown[1:]  # si tolgono le piu' vecchie finche' il messaggio entra
+        text = build(shown)
+    return text
 
 
 # --------------------------------------------------------------------------- stato
@@ -169,15 +226,42 @@ def load_state(path):
     return ids
 
 
-def save_state(path, ids):
-    """Salva in modo atomico gli ultimi MAX_STATE_IDS identificativi."""
+def load_extra(path):
+    """Dati per il riepilogo serale ("recent", "last_digest"). Tolleranti: se mancano o sono
+    malformati si riparte da vuoto, senza toccare gli ID gia' pubblicati."""
+    try:
+        with open(path, encoding="utf-8") as handle:
+            data = json.load(handle)
+    except (OSError, ValueError):
+        data = {}
+    if not isinstance(data, dict):
+        data = {}
+    recent = [e for e in data.get("recent") or [] if isinstance(e, dict) and _sent_at(e)]
+    last_digest = data.get("last_digest")
+    return {"recent": recent, "last_digest": last_digest if isinstance(last_digest, str) else None}
+
+
+def _sent_at(entry):
+    try:
+        moment = datetime.fromisoformat(entry["sent_at"])
+    except (KeyError, TypeError, ValueError):
+        return None
+    return moment if moment.tzinfo else moment.replace(tzinfo=timezone.utc)
+
+
+def save_state(path, ids, extra=None):
+    """Salva in modo atomico gli ultimi MAX_STATE_IDS identificativi (e i dati del riepilogo)."""
     ids = list(ids)[-MAX_STATE_IDS:]
+    payload = {"sent_ids": ids}
+    if extra is not None:
+        payload["recent"] = list(extra.get("recent") or [])[-MAX_STATE_IDS:]
+        payload["last_digest"] = extra.get("last_digest")
     directory = os.path.dirname(path)
     if directory:
         os.makedirs(directory, exist_ok=True)
     tmp_path = path + ".tmp"
     with open(tmp_path, "w", encoding="utf-8") as handle:
-        json.dump({"sent_ids": ids}, handle, ensure_ascii=False, indent=2)
+        json.dump(payload, handle, ensure_ascii=False, indent=2)
         handle.write("\n")
     os.replace(tmp_path, path)
 
@@ -198,12 +282,15 @@ class TelegramClient:
         self.chat_id = chat_id
         self.sleep = sleep
 
-    def send_message(self, text):
-        body = urllib.parse.urlencode({
+    def send_message(self, text, preview=True):
+        params = {
             "chat_id": self.chat_id,
             "text": text,
             "parse_mode": "HTML",
-        }).encode("utf-8")
+        }
+        if not preview:
+            params["link_preview_options"] = json.dumps({"is_disabled": True})
+        body = urllib.parse.urlencode(params).encode("utf-8")
         last_error = None
         for attempt in range(1, SEND_ATTEMPTS + 1):
             wait = None
@@ -254,7 +341,29 @@ def load_config(env):
     if number < 0 or number != int(number):
         raise ConfigError("BOOTSTRAP_SEND_LAST deve essere un intero >= 0, ricevuto %r" % raw_bootstrap)
 
+    raw_hour = get("DIGEST_HOUR", str(DEFAULT_DIGEST_HOUR)).lower()
+    if raw_hour in ("off", "no", "false", "-1"):
+        digest_hour = None
+    else:
+        try:
+            digest_hour = int(raw_hour)
+        except ValueError:
+            digest_hour = -1
+        if not 0 <= digest_hour <= 23:
+            raise ConfigError("DIGEST_HOUR deve essere un'ora tra 0 e 23 oppure 'off', ricevuto %r" % raw_hour)
+
+    raw_max = get("DIGEST_MAX", str(DEFAULT_DIGEST_MAX))
+    try:
+        digest_max = int(raw_max)
+    except ValueError:
+        digest_max = 0
+    if digest_max < 1:
+        raise ConfigError("DIGEST_MAX deve essere un intero >= 1, ricevuto %r" % raw_max)
+
     config = {
+        "digest_hour": digest_hour,
+        "digest_max": digest_max,
+        "digest_force": get("DIGEST_FORCE", "0").lower() in ("1", "true", "yes", "on"),
         "token": get("TELEGRAM_BOT_TOKEN"),
         "chat_id": get("TELEGRAM_CHAT_ID", DEFAULT_CHAT_ID),
         "feed_url": get("FEED_URL", DEFAULT_FEED_URL),
@@ -268,17 +377,26 @@ def load_config(env):
     return config
 
 
-def run(config, send, sleep=time.sleep, fetch=fetch_feed):
-    """Esegue un giro completo. Restituisce l'exit code."""
+def run(config, send, sleep=time.sleep, fetch=fetch_feed, send_digest=None, now=None):
+    """Esegue un giro completo. Restituisce l'exit code.
+
+    send_digest invia il riepilogo (default: send); now serve ai test.
+    """
+    now = now or datetime.now(timezone.utc)
     items = parse_feed(fetch(config["feed_url"], sleep))
     log("Feed letto: %d articoli" % len(items))
-    if not items:
-        log("Il feed non contiene articoli: nulla da fare")
-        return 0
 
     state_path = config["state_file"]
     sent_ids = load_state(state_path)
     dry_run = config["dry_run"]
+    extra = load_extra(state_path)
+    extra["recent"] = [e for e in extra["recent"] if _sent_at(e) >= now - RECENT_KEEP]
+
+    if not items:
+        log("Il feed non contiene articoli: nulla da pubblicare")
+        if sent_ids is None:
+            return 0
+        return run_digest(config, sent_ids, extra, None if dry_run else (send_digest or send), now)
 
     if sent_ids is None:
         count = min(config["bootstrap"], len(items))
@@ -290,7 +408,7 @@ def run(config, send, sleep=time.sleep, fetch=fetch_feed):
         log("Primo avvio: %d articoli segnati come gia' pubblicati, %d da pubblicare ora"
             % (len(sent_ids), len(to_send)))
         if not dry_run:
-            save_state(state_path, sent_ids)
+            save_state(state_path, sent_ids, extra)
     else:
         if config["bootstrap"]:
             log("BOOTSTRAP_SEND_LAST ignorato: lo stato esiste gia'")
@@ -310,6 +428,7 @@ def run(config, send, sleep=time.sleep, fetch=fetch_feed):
         if not pending:
             for item in items[-DRY_RUN_PREVIEW:]:
                 log("[DRY RUN] anteprima formato (non verrebbe inviato):\n%s\n" % format_message(item))
+        run_digest(config, sent_ids, extra, None, now)
         log("[DRY RUN] nessun messaggio inviato, stato non salvato")
         return 0
 
@@ -324,12 +443,50 @@ def run(config, send, sleep=time.sleep, fetch=fetch_feed):
                 % (index, len(pending)), sys.stderr)
             return 1
         sent_ids.append(item["id"])
-        save_state(state_path, sent_ids)
+        extra["recent"].append({
+            "id": item["id"],
+            "title": item["title"],
+            "link": item["link"],
+            "sent_at": now.isoformat(timespec="seconds"),
+        })
+        save_state(state_path, sent_ids, extra)
         log("Pubblicato: %s" % item["title"])
+    return run_digest(config, sent_ids, extra, send_digest or send, now)
+
+
+def run_digest(config, sent_ids, extra, send, now):
+    """Invia il riepilogo del giorno una sola volta, dopo DIGEST_HOUR (ora italiana).
+
+    send=None significa dry run: stampa l'anteprima senza inviare e senza salvare.
+    Se l'invio fallisce il giorno resta aperto e il giro successivo riprova.
+    """
+    local_now = now.astimezone(LOCAL_TZ)
+    today = local_now.date()
+    hour = config.get("digest_hour")
+    if not config.get("digest_force"):
+        if hour is None or local_now.hour < hour or extra.get("last_digest") == today.isoformat():
+            return 0
+
+    entries = [e for e in extra["recent"] if _sent_at(e).astimezone(LOCAL_TZ).date() == today]
+    text = format_digest(entries, today, config.get("digest_max", DEFAULT_DIGEST_MAX))
+    if send is None:
+        log("[DRY RUN] riepilogo serale:\n%s\n" % (text or "(nessuna notizia oggi, non verrebbe inviato)"))
+        return 0
+    if text:
+        try:
+            send(text)
+        except TelegramError as exc:
+            log("ERRORE: riepilogo serale non inviato, riprovo al prossimo giro: %s" % exc, sys.stderr)
+            return 1
+        log("Riepilogo serale pubblicato con %d notizie" % len(entries))
+    else:
+        log("Nessuna notizia oggi: riepilogo serale saltato")
+    extra["last_digest"] = today.isoformat()
+    save_state(config["state_file"], sent_ids, extra)
     return 0
 
 
-def main(env=None, sleep=time.sleep):
+def main(env=None, sleep=time.sleep, now=None):
     env = os.environ if env is None else env
     token = (env.get("TELEGRAM_BOT_TOKEN") or "").strip()
     if token and token not in _SECRETS:
@@ -337,7 +494,8 @@ def main(env=None, sleep=time.sleep):
     try:
         config = load_config(env)
         client = TelegramClient(config["token"], config["chat_id"], config["api_url"], sleep)
-        return run(config, client.send_message, sleep)
+        return run(config, client.send_message, sleep,
+                   send_digest=lambda text: client.send_message(text, preview=False), now=now)
     except (ConfigError, FeedError, StateError, TelegramError) as exc:
         log("ERRORE: %s" % exc, sys.stderr)
         return 1

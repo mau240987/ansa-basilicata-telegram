@@ -102,7 +102,7 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(
             rt.format_message(item),
             '<b>Notizia D: Potenza &amp; Matera &lt;oggi&gt; "speciale"</b>\n'
-            "https://www.ansa.it/basilicata/notizie/d.html?a=1&amp;b=2")
+            "https://www.ansa.it/basilicata/notizie/d.html?a=1&amp;b=2\n#Potenza #Matera")
 
     def test_message_format(self):
         item = rt.parse_feed(FEED)[0]
