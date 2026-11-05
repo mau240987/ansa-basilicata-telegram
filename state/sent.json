@@ -85,7 +85,16 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/04/polese-leconomia-circolare-trasformi-i-rifiuti-in-risorse-e-opportunita_c1c596d1-c2cb-4640-a5e3-8575124a97bd.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/04/carta-dedicata-a-te-galella-sostegno-reale-alle-famiglie-e-ai-negozi-di-vicinato_d434d899-2fa1-40bf-9aa7-3e10625c81c3.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/04/a-60-anni-dallalluvione-di-firenze-il-ricordo-di-dangelo-una-visione-terribile_fb4c9013-8bbf-404f-bdde-a30a5a8973ea.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/04/candidato-alla-segreteria-provinciale-del-pd-potenza-cambiate-le-regole-in-corsa_d4d756da-442c-4e4d-86ba-b14a46020aaa.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/04/candidato-alla-segreteria-provinciale-del-pd-potenza-cambiate-le-regole-in-corsa_d4d756da-442c-4e4d-86ba-b14a46020aaa.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/arcigay-basilicata-plaude-al-comune-di-montemilone-un-modello-per-gli-altri-comuni_2dac7e42-44f2-42bc-a144-80df62c1b19c.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/fare-matera-propone-uno-strategy-city-board-per-il-futuro-della_75ef246e-022e-4c4b-adc4-5fa4b16a2f63.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/energia-marrese-dal-governo-un-altro-schiaffo-alla-basilicata_52ad897b-0bb9-48f2-896b-7c8a29ded1da.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/lavoro-basilicata-640mila-euro-per-giovani-disoccupati-under-35_b8eea1ed-1844-4647-9e97-f22c4f8b89e7.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/truffe-agli-anziani-un-finto-carabiniere-arrestato-dalla-polizia-a-potenza_8482aaa5-afc5-4736-816f-f477a7c4672a.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/bankitalia-leconomia-della-basilicata-cresce-piu-del-sud-e-dellitalia_3d660006-d6c0-4d82-968a-aa2706b5321d.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/passeggero-su-dublino-roma-dirottato-visti-i-jet-abbiamo-pensato-a-una-bomba_86a5973c-e934-4633-9c73-3e39cf4b7880.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/bardi-bankitalia-traccia-un-quadro-di-ripresa-e-resilienza-per-la-basilicata_9066a3a2-f984-43a8-a8bc-48858930918d.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/energia-bochicchio-roma-ignora-potenza_c349fd93-4889-49cf-8cbb-a0730483b076.html"
   ],
   "recent": [
     {
@@ -231,6 +240,60 @@
       "title": "Candidato alla segreteria provinciale del Pd Potenza, 'cambiate le regole in corsa'",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/04/candidato-alla-segreteria-provinciale-del-pd-potenza-cambiate-le-regole-in-corsa_d4d756da-442c-4e4d-86ba-b14a46020aaa.html",
       "sent_at": "2026-11-04T22:55:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/05/arcigay-basilicata-plaude-al-comune-di-montemilone-un-modello-per-gli-altri-comuni_2dac7e42-44f2-42bc-a144-80df62c1b19c.html",
+      "title": "Arcigay Basilicata plaude al Comune di Montemilone, un modello per gli altri Comuni",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/arcigay-basilicata-plaude-al-comune-di-montemilone-un-modello-per-gli-altri-comuni_2dac7e42-44f2-42bc-a144-80df62c1b19c.html",
+      "sent_at": "2026-11-05T10:57:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/05/fare-matera-propone-uno-strategy-city-board-per-il-futuro-della_75ef246e-022e-4c4b-adc4-5fa4b16a2f63.html",
+      "title": "Fare Matera propone uno Strategy City Board per il futuro della città",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/fare-matera-propone-uno-strategy-city-board-per-il-futuro-della_75ef246e-022e-4c4b-adc4-5fa4b16a2f63.html",
+      "sent_at": "2026-11-05T10:57:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/05/energia-marrese-dal-governo-un-altro-schiaffo-alla-basilicata_52ad897b-0bb9-48f2-896b-7c8a29ded1da.html",
+      "title": "Energia: Marrese, dal Governo un altro schiaffo alla Basilicata",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/energia-marrese-dal-governo-un-altro-schiaffo-alla-basilicata_52ad897b-0bb9-48f2-896b-7c8a29ded1da.html",
+      "sent_at": "2026-11-05T10:57:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/05/lavoro-basilicata-640mila-euro-per-giovani-disoccupati-under-35_b8eea1ed-1844-4647-9e97-f22c4f8b89e7.html",
+      "title": "Lavoro: Basilicata, 640mila euro per giovani disoccupati under 35",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/lavoro-basilicata-640mila-euro-per-giovani-disoccupati-under-35_b8eea1ed-1844-4647-9e97-f22c4f8b89e7.html",
+      "sent_at": "2026-11-05T10:57:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/05/truffe-agli-anziani-un-finto-carabiniere-arrestato-dalla-polizia-a-potenza_8482aaa5-afc5-4736-816f-f477a7c4672a.html",
+      "title": "Truffe agli anziani: un finto carabiniere arrestato dalla Polizia a Potenza",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/truffe-agli-anziani-un-finto-carabiniere-arrestato-dalla-polizia-a-potenza_8482aaa5-afc5-4736-816f-f477a7c4672a.html",
+      "sent_at": "2026-11-05T10:57:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/05/bankitalia-leconomia-della-basilicata-cresce-piu-del-sud-e-dellitalia_3d660006-d6c0-4d82-968a-aa2706b5321d.html",
+      "title": "Bankitalia, l'economia della Basilicata cresce più del Sud e dell'Italia",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/bankitalia-leconomia-della-basilicata-cresce-piu-del-sud-e-dellitalia_3d660006-d6c0-4d82-968a-aa2706b5321d.html",
+      "sent_at": "2026-11-05T10:57:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/05/passeggero-su-dublino-roma-dirottato-visti-i-jet-abbiamo-pensato-a-una-bomba_86a5973c-e934-4633-9c73-3e39cf4b7880.html",
+      "title": "Passeggero su Dublino-Roma dirottato, visti i jet abbiamo pensato a una bomba",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/passeggero-su-dublino-roma-dirottato-visti-i-jet-abbiamo-pensato-a-una-bomba_86a5973c-e934-4633-9c73-3e39cf4b7880.html",
+      "sent_at": "2026-11-05T10:57:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/05/bardi-bankitalia-traccia-un-quadro-di-ripresa-e-resilienza-per-la-basilicata_9066a3a2-f984-43a8-a8bc-48858930918d.html",
+      "title": "Bardi, Bankitalia traccia un quadro di ripresa e resilienza per la Basilicata",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/bardi-bankitalia-traccia-un-quadro-di-ripresa-e-resilienza-per-la-basilicata_9066a3a2-f984-43a8-a8bc-48858930918d.html",
+      "sent_at": "2026-11-05T10:57:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/05/energia-bochicchio-roma-ignora-potenza_c349fd93-4889-49cf-8cbb-a0730483b076.html",
+      "title": "Energia: Bochicchio, Roma ignora Potenza",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/energia-bochicchio-roma-ignora-potenza_c349fd93-4889-49cf-8cbb-a0730483b076.html",
+      "sent_at": "2026-11-05T10:57:23+00:00"
     }
   ],
   "last_digest": "2026-11-04"
