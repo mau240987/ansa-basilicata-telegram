@@ -105,7 +105,18 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/05/bankitalia-cgil-basilicata-la-lettura-di-bardi-e-parziale-e-da-campagna-elettorale_cec46039-bead-4901-bf23-448d6c23a023.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/05/bankitalia-uil-basilicata-cresce-loccupazione-ma-il-lavoro-stabile-resta-debole_eb079b0c-dab0-4adc-a9c2-cd992ea3dfd9.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/05/bankitalia-dalema-buoni-i-segnali-di-tenuta-ma-serve-una-nuova-politica-industriale_d7b33cc5-8b4c-44c0-9116-c6dc6a6ecbac.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/05/mense-e-trasporto-scolastico-a-potenza-m5s-la-regione-intervenga-subito_5f1cabdf-5df8-499a-81d3-58fcb660ef4c.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/05/mense-e-trasporto-scolastico-a-potenza-m5s-la-regione-intervenga-subito_5f1cabdf-5df8-499a-81d3-58fcb660ef4c.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/bankitalia-cisl-nel-sistema-basilicata-convivono-aspetti-positivi-e-criticita_d761c3d8-0e25-458e-aad9-fb7551ff067a.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/carmensita-bellettieri-torna-alla-poesia-con-diacronie_dc087121-3f1a-491e-b540-add6032be452.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/bankitalia-latronico-i-numeri-confermano-le-potenzialita-della-basilicata_2bc030b1-38b4-497f-8270-5598d364f2a6.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/evasione-fiscale-gdf-scopre-redditi-non-dichiarati-da-un-medico-per-100_c8031712-8627-4d17-9a2c-f5f104f9098a.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/sicurezza-liberta-e-tutela-dei-diritti-a-potenza-un-incontro-con-gabrielli_79324082-4151-4d8a-8040-b00beb83db9e.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/basilicata-persone-con-disabilita-e-inclusione-lavorativa-dalla-giunta-800-mila_f0611af4-8d64-4a43-bff3-4743af16d58f.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/lavoro-uil-basilicata-la-mobilitazione-ora-basta-dai-mercati-di-potenza_7d82c675-e15a-4554-a81a-08d429bd824c.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/cadono-calcinacci-chiuso-il-ponte-musmeci-simbolo-della-citta-di-potenza_f2797450-0ac8-4645-b54a-bd90f4ef9731.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/bankitalia-bochicchio-la-crisi-internazionale-pesa-anche-in-basilicata_e11a6eb9-71a5-4bf9-9605-59026761f598.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/m5s-gli-applausi-di-latronico-sul-fondo-sanitario-non-bastano-a-curare_44efea92-49e7-43e4-b492-b99d8462288a.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/06/rifiuti-urbani-alla-basilicata-il-premio-waste-carbon-free_ae39a7b1-9dff-4ef4-a757-f1b2b3b9491e.html"
   ],
   "recent": [
     {
@@ -371,6 +382,72 @@
       "title": "Mense e trasporto scolastico a Potenza: M5S, la Regione intervenga subito",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/05/mense-e-trasporto-scolastico-a-potenza-m5s-la-regione-intervenga-subito_5f1cabdf-5df8-499a-81d3-58fcb660ef4c.html",
       "sent_at": "2026-11-05T18:36:24+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/bankitalia-cisl-nel-sistema-basilicata-convivono-aspetti-positivi-e-criticita_d761c3d8-0e25-458e-aad9-fb7551ff067a.html",
+      "title": "Bankitalia: Cisl, nel sistema Basilicata convivono aspetti positivi e criticità",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/bankitalia-cisl-nel-sistema-basilicata-convivono-aspetti-positivi-e-criticita_d761c3d8-0e25-458e-aad9-fb7551ff067a.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/carmensita-bellettieri-torna-alla-poesia-con-diacronie_dc087121-3f1a-491e-b540-add6032be452.html",
+      "title": "Carmensita Bellettieri torna alla poesia con 'Diacronie'",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/carmensita-bellettieri-torna-alla-poesia-con-diacronie_dc087121-3f1a-491e-b540-add6032be452.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/bankitalia-latronico-i-numeri-confermano-le-potenzialita-della-basilicata_2bc030b1-38b4-497f-8270-5598d364f2a6.html",
+      "title": "Bankitalia: Latronico, i numeri confermano le potenzialità della Basilicata",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/bankitalia-latronico-i-numeri-confermano-le-potenzialita-della-basilicata_2bc030b1-38b4-497f-8270-5598d364f2a6.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/evasione-fiscale-gdf-scopre-redditi-non-dichiarati-da-un-medico-per-100_c8031712-8627-4d17-9a2c-f5f104f9098a.html",
+      "title": "Evasione fiscale, Gdf scopre redditi non dichiarati da un medico per 100 mila euro",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/evasione-fiscale-gdf-scopre-redditi-non-dichiarati-da-un-medico-per-100_c8031712-8627-4d17-9a2c-f5f104f9098a.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/sicurezza-liberta-e-tutela-dei-diritti-a-potenza-un-incontro-con-gabrielli_79324082-4151-4d8a-8040-b00beb83db9e.html",
+      "title": "Sicurezza, libertà e tutela dei diritti: a Potenza un incontro con Gabrielli",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/sicurezza-liberta-e-tutela-dei-diritti-a-potenza-un-incontro-con-gabrielli_79324082-4151-4d8a-8040-b00beb83db9e.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/basilicata-persone-con-disabilita-e-inclusione-lavorativa-dalla-giunta-800-mila_f0611af4-8d64-4a43-bff3-4743af16d58f.html",
+      "title": "Basilicata: persone con disabilità e inclusione lavorativa, dalla Giunta 800 mila euro",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/basilicata-persone-con-disabilita-e-inclusione-lavorativa-dalla-giunta-800-mila_f0611af4-8d64-4a43-bff3-4743af16d58f.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/lavoro-uil-basilicata-la-mobilitazione-ora-basta-dai-mercati-di-potenza_7d82c675-e15a-4554-a81a-08d429bd824c.html",
+      "title": "Lavoro: Uil Basilicata, la mobilitazione 'Ora basta!' dai mercati di Potenza",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/lavoro-uil-basilicata-la-mobilitazione-ora-basta-dai-mercati-di-potenza_7d82c675-e15a-4554-a81a-08d429bd824c.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/cadono-calcinacci-chiuso-il-ponte-musmeci-simbolo-della-citta-di-potenza_f2797450-0ac8-4645-b54a-bd90f4ef9731.html",
+      "title": "Cadono calcinacci: chiuso il Ponte Musmeci, simbolo della città di Potenza",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/cadono-calcinacci-chiuso-il-ponte-musmeci-simbolo-della-citta-di-potenza_f2797450-0ac8-4645-b54a-bd90f4ef9731.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/bankitalia-bochicchio-la-crisi-internazionale-pesa-anche-in-basilicata_e11a6eb9-71a5-4bf9-9605-59026761f598.html",
+      "title": "Bankitalia: Bochicchio, la crisi internazionale pesa anche in Basilicata",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/bankitalia-bochicchio-la-crisi-internazionale-pesa-anche-in-basilicata_e11a6eb9-71a5-4bf9-9605-59026761f598.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/m5s-gli-applausi-di-latronico-sul-fondo-sanitario-non-bastano-a-curare_44efea92-49e7-43e4-b492-b99d8462288a.html",
+      "title": "M5S, gli applausi di Latronico sul Fondo sanitario non bastano a curare i lucani",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/m5s-gli-applausi-di-latronico-sul-fondo-sanitario-non-bastano-a-curare_44efea92-49e7-43e4-b492-b99d8462288a.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/06/rifiuti-urbani-alla-basilicata-il-premio-waste-carbon-free_ae39a7b1-9dff-4ef4-a757-f1b2b3b9491e.html",
+      "title": "Rifiuti urbani, alla Basilicata il premio 'Waste Carbon Free'",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/06/rifiuti-urbani-alla-basilicata-il-premio-waste-carbon-free_ae39a7b1-9dff-4ef4-a757-f1b2b3b9491e.html",
+      "sent_at": "2026-11-06T12:57:26+00:00"
     }
   ],
   "last_digest": "2026-11-04"
