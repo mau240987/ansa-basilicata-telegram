@@ -139,7 +139,15 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/06/ansa-box-a-potenza-chiude-il-ponte-musmeci-gioiello-del-900_aec2977d-4ae9-4c38-90e6-88aa13c99302.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/07/con-lauto-finisce-in-un-canale-e-muore-nel-cosentino_a88b9f47-efe0-4b33-9cb0-33f951429805.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/07/in-basilicata-650-mila-euro-per-linserimento-occupazionale-di-cittadini-extra-ue_89c872de-7615-4ecc-8d90-eeffeb568dcd.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/07/il-mimmo-beneventano-a-padre-zanotelli-leo-amato-e-alla-memoria-di-massimo-battista_5e50bb1d-6034-437e-bacc-4e51795f8014.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/il-mimmo-beneventano-a-padre-zanotelli-leo-amato-e-alla-memoria-di-massimo-battista_5e50bb1d-6034-437e-bacc-4e51795f8014.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/bcc-la-basilicata-non-puo-diventare-merce-di-scambio-negli-accordi-politici_44876a31-2b45-44e2-96ab-55237bfb24e0.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/a-francavilla-in-sinni-posata-la-prima-pietra-di-una-nuova-chiesa_b9fab100-d0e4-4c67-81b7-61b278d9fa6d.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/intelligenza-artificiale-tra-etica-e-diritto-un-dibattito-a-potenza_4a4f49f7-d4f8-4ab6-98f0-ece22d6509c0.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/bardi-la-mia-piu-sincera-vicinanza-e-il-massimo-sostegno-a-tajani_1379314e-3c4e-44a7-8c9a-0becac5c9957.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-m5s-bardi-riferisca-in-consiglio-sullenergia_b6dc6de5-52e4-420c-b572-e005d4ff7ac3.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/bardi-basilicata-sullautonomia-nessun-atto-formale_285fe4fc-7a4d-4278-9206-f0d6affef2de.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-amendola-sarracino-pd-bardi-svende-la-sua-regione_9e5d3c56-1106-431f-8cc6-c00539d4bec8.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-lacorazza-basta-chiacchiere_e616e004-941a-4fa9-8389-770ff7311d08.html"
   ],
   "recent": [
     {
@@ -411,6 +419,54 @@
       "title": "Il 'Mimmo Beneventano' a padre Zanotelli, Leo Amato e alla memoria di Massimo Battista",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/il-mimmo-beneventano-a-padre-zanotelli-leo-amato-e-alla-memoria-di-massimo-battista_5e50bb1d-6034-437e-bacc-4e51795f8014.html",
       "sent_at": "2026-11-07T11:52:28+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/07/bcc-la-basilicata-non-puo-diventare-merce-di-scambio-negli-accordi-politici_44876a31-2b45-44e2-96ab-55237bfb24e0.html",
+      "title": "Bcc, la Basilicata non può diventare merce di scambio negli accordi politici romani",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/bcc-la-basilicata-non-puo-diventare-merce-di-scambio-negli-accordi-politici_44876a31-2b45-44e2-96ab-55237bfb24e0.html",
+      "sent_at": "2026-11-07T17:26:21+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/07/a-francavilla-in-sinni-posata-la-prima-pietra-di-una-nuova-chiesa_b9fab100-d0e4-4c67-81b7-61b278d9fa6d.html",
+      "title": "A Francavilla in Sinni posata la prima pietra di una nuova chiesa",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/a-francavilla-in-sinni-posata-la-prima-pietra-di-una-nuova-chiesa_b9fab100-d0e4-4c67-81b7-61b278d9fa6d.html",
+      "sent_at": "2026-11-07T17:26:21+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/07/intelligenza-artificiale-tra-etica-e-diritto-un-dibattito-a-potenza_4a4f49f7-d4f8-4ab6-98f0-ece22d6509c0.html",
+      "title": "Intelligenza artificiale tra etica e diritto, un dibattito a Potenza",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/intelligenza-artificiale-tra-etica-e-diritto-un-dibattito-a-potenza_4a4f49f7-d4f8-4ab6-98f0-ece22d6509c0.html",
+      "sent_at": "2026-11-07T17:26:21+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/07/bardi-la-mia-piu-sincera-vicinanza-e-il-massimo-sostegno-a-tajani_1379314e-3c4e-44a7-8c9a-0becac5c9957.html",
+      "title": "Bardi, la mia più sincera vicinanza e il massimo sostegno a Tajani",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/bardi-la-mia-piu-sincera-vicinanza-e-il-massimo-sostegno-a-tajani_1379314e-3c4e-44a7-8c9a-0becac5c9957.html",
+      "sent_at": "2026-11-07T17:26:21+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-m5s-bardi-riferisca-in-consiglio-sullenergia_b6dc6de5-52e4-420c-b572-e005d4ff7ac3.html",
+      "title": "Autonomia: M5S, Bardi riferisca in Consiglio sull'energia",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-m5s-bardi-riferisca-in-consiglio-sullenergia_b6dc6de5-52e4-420c-b572-e005d4ff7ac3.html",
+      "sent_at": "2026-11-07T17:26:21+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/07/bardi-basilicata-sullautonomia-nessun-atto-formale_285fe4fc-7a4d-4278-9206-f0d6affef2de.html",
+      "title": "Bardi (Basilicata), sull'Autonomia nessun atto formale",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/bardi-basilicata-sullautonomia-nessun-atto-formale_285fe4fc-7a4d-4278-9206-f0d6affef2de.html",
+      "sent_at": "2026-11-07T17:26:21+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-amendola-sarracino-pd-bardi-svende-la-sua-regione_9e5d3c56-1106-431f-8cc6-c00539d4bec8.html",
+      "title": "Autonomia: Amendola-Sarracino (Pd), Bardi svende la sua regione",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-amendola-sarracino-pd-bardi-svende-la-sua-regione_9e5d3c56-1106-431f-8cc6-c00539d4bec8.html",
+      "sent_at": "2026-11-07T17:26:21+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-lacorazza-basta-chiacchiere_e616e004-941a-4fa9-8389-770ff7311d08.html",
+      "title": "Autonomia: Lacorazza, basta chiacchiere",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-lacorazza-basta-chiacchiere_e616e004-941a-4fa9-8389-770ff7311d08.html",
+      "sent_at": "2026-11-07T17:26:21+00:00"
     }
   ],
   "last_digest": "2026-11-06"
