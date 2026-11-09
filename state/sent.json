@@ -147,7 +147,8 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-m5s-bardi-riferisca-in-consiglio-sullenergia_b6dc6de5-52e4-420c-b572-e005d4ff7ac3.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/07/bardi-basilicata-sullautonomia-nessun-atto-formale_285fe4fc-7a4d-4278-9206-f0d6affef2de.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-amendola-sarracino-pd-bardi-svende-la-sua-regione_9e5d3c56-1106-431f-8cc6-c00539d4bec8.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-lacorazza-basta-chiacchiere_e616e004-941a-4fa9-8389-770ff7311d08.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-lacorazza-basta-chiacchiere_e616e004-941a-4fa9-8389-770ff7311d08.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/09/latronico-leredita-della-magna-grecia-e-una-risorsa-viva_8769e7f4-d4a9-4f63-928a-730f4333b53b.html"
   ],
   "recent": [
     {
@@ -215,6 +216,12 @@
       "title": "Autonomia: Lacorazza, basta chiacchiere",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/07/autonomia-lacorazza-basta-chiacchiere_e616e004-941a-4fa9-8389-770ff7311d08.html",
       "sent_at": "2026-11-07T17:26:21+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/09/latronico-leredita-della-magna-grecia-e-una-risorsa-viva_8769e7f4-d4a9-4f63-928a-730f4333b53b.html",
+      "title": "Latronico, l'eredità della Magna Grecia è una risorsa viva",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/09/latronico-leredita-della-magna-grecia-e-una-risorsa-viva_8769e7f4-d4a9-4f63-928a-730f4333b53b.html",
+      "sent_at": "2026-11-09T09:07:41+00:00"
     }
   ],
   "last_digest": "2026-11-08"
