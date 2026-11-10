@@ -163,7 +163,11 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/09/archeologia-a-potenza-convegno-su-francesco-ranaldi_1719b9e7-4a37-470b-b72f-323438cd2a58.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/09/basilicata-promossa-dai-turisti-per-bardi-e-la-vittoria-del-modello-lucano_da78eb3c-7bf5-471a-a451-888249f6aa3b.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/09/la-nuova-lancia-gamma-incontra-la-basilicata_adaa1e9e-123b-45ea-8ad5-3b980cc92477.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/09/gimbe-in-basilicata-nel-2025-60mila-persone-hanno-rinunciato-alle-cure_3805a6e6-277f-4f9b-b1bd-454e3d5f266d.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/09/gimbe-in-basilicata-nel-2025-60mila-persone-hanno-rinunciato-alle-cure_3805a6e6-277f-4f9b-b1bd-454e3d5f266d.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/10/minorenni-coinvolti-nel-traffico-di-droga-nel-materano-13-misure-cautelari_658d755a-44cd-4b65-9bc4-2648e1e2e0c3.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/10/emergenza-abitativa-per-la-uil-basilicata-non-servono-interventi-occasionali_3a28ddd3-3e62-4c5e-a49b-52c4922ad1f9.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/10/a-ruoti-memoria-e-identita-riscoperte-attraverso-gli-abiti-storici-tradizionali_2f275e79-0341-43a5-a5a9-cc3e181ecd80.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/10/traffico-di-droga-nel-materano-cinque-minorenni-collocati-in-comunita_9d38a843-e74a-4181-bad2-9a3fa22f8485.html"
   ],
   "recent": [
     {
@@ -261,6 +265,30 @@
       "title": "Gimbe: in Basilicata nel 2025 60mila persone hanno rinunciato alle cure sanitarie",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/09/gimbe-in-basilicata-nel-2025-60mila-persone-hanno-rinunciato-alle-cure_3805a6e6-277f-4f9b-b1bd-454e3d5f266d.html",
       "sent_at": "2026-11-09T19:49:02+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/10/minorenni-coinvolti-nel-traffico-di-droga-nel-materano-13-misure-cautelari_658d755a-44cd-4b65-9bc4-2648e1e2e0c3.html",
+      "title": "Minorenni coinvolti nel traffico di droga nel Materano, 13 misure cautelari",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/10/minorenni-coinvolti-nel-traffico-di-droga-nel-materano-13-misure-cautelari_658d755a-44cd-4b65-9bc4-2648e1e2e0c3.html",
+      "sent_at": "2026-11-10T10:26:58+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/10/emergenza-abitativa-per-la-uil-basilicata-non-servono-interventi-occasionali_3a28ddd3-3e62-4c5e-a49b-52c4922ad1f9.html",
+      "title": "Emergenza abitativa, per la Uil Basilicata 'non servono interventi occasionali'",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/10/emergenza-abitativa-per-la-uil-basilicata-non-servono-interventi-occasionali_3a28ddd3-3e62-4c5e-a49b-52c4922ad1f9.html",
+      "sent_at": "2026-11-10T10:26:58+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/10/a-ruoti-memoria-e-identita-riscoperte-attraverso-gli-abiti-storici-tradizionali_2f275e79-0341-43a5-a5a9-cc3e181ecd80.html",
+      "title": "A Ruoti memoria e identità riscoperte attraverso gli abiti storici tradizionali",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/10/a-ruoti-memoria-e-identita-riscoperte-attraverso-gli-abiti-storici-tradizionali_2f275e79-0341-43a5-a5a9-cc3e181ecd80.html",
+      "sent_at": "2026-11-10T10:26:58+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/10/traffico-di-droga-nel-materano-cinque-minorenni-collocati-in-comunita_9d38a843-e74a-4181-bad2-9a3fa22f8485.html",
+      "title": "Traffico di droga nel Materano: cinque minorenni collocati in comunità",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/10/traffico-di-droga-nel-materano-cinque-minorenni-collocati-in-comunita_9d38a843-e74a-4181-bad2-9a3fa22f8485.html",
+      "sent_at": "2026-11-10T10:26:58+00:00"
     }
   ],
   "last_digest": "2026-11-09"
