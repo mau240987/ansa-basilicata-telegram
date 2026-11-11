@@ -2,7 +2,7 @@ name: RSS to Telegram
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -45,6 +45,8 @@ jobs:
           DIGEST_HOUR: ${{ vars.DIGEST_HOUR || '20' }}
           DIGEST_MAX: ${{ vars.DIGEST_MAX || '10' }}
           DIGEST_FORCE: ${{ inputs.send_digest_now && '1' || '0' }}
+          # Notifiche silenziose in questa fascia (ora italiana). "off" la disattiva.
+          QUIET_HOURS: ${{ vars.QUIET_HOURS || '22-7' }}
         run: python3 rss_to_telegram.py
 
       - name: Salva lo stato

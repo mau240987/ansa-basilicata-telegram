@@ -190,7 +190,8 @@ class EndToEndDigestTests(unittest.TestCase):
             self.assertNotIn(TOKEN, out.getvalue())
             news, digest = server.received[:-1], server.received[-1]
             self.assertEqual(len(news), 3)
-            self.assertTrue(all("link_preview_options" not in m for m in news))
+            self.assertTrue(all(json.loads(m["link_preview_options"]) == {"prefer_large_media": True}
+                                for m in news))
             self.assertIn("Le notizie di oggi", digest["text"])
             self.assertEqual(json.loads(digest["link_preview_options"]), {"is_disabled": True})
 

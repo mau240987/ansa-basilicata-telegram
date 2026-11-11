@@ -1,7 +1,7 @@
 # ANSA Basilicata → Telegram
 
 Pubblica sul canale Telegram [@ansabasilicata](https://t.me/ansabasilicata) le nuove notizie del feed
-RSS <https://www.ansa.it/basilicata/notizie/basilicata_rss.xml>, ogni 15 minuti, con GitHub Actions.
+RSS <https://www.ansa.it/basilicata/notizie/basilicata_rss.xml>, ogni 5 minuti, con GitHub Actions.
 Nessun server, nessuna dipendenza esterna: solo Python e la sua libreria standard.
 
 ## Come funziona
@@ -31,6 +31,11 @@ Nessun server, nessuna dipendenza esterna: solo Python e la sua libreria standar
   senza notizie non parte. Titoli e link delle ultime 48 ore sono in `state/sent.json` (`recent`), insieme
   alla data dell'ultimo riepilogo (`last_digest`). Le notizie uscite dopo il riepilogo non vi rientrano.
 
+- **Anteprima grande**: le notizie escono con l'anteprima del link in formato grande
+  (`link_preview_options.prefer_large_media`), così la foto dell'articolo è in evidenza.
+- **Notte silenziosa**: nella fascia `QUIET_HOURS` (default 22-7, ora italiana) i messaggi escono lo stesso
+  ma senza suono di notifica (`disable_notification`). La fascia è decisa all'inizio di ogni giro.
+
 - Gli ID già pubblicati (il `guid`, oppure il `link` se il guid manca) sono in `state/sent.json`, che
   conserva gli ultimi 500 ID e viene committato dal workflow solo quando cambia.
 - **Primo avvio** (stato assente): tutto il feed viene segnato come già pubblicato, senza inviare nulla.
@@ -55,13 +60,14 @@ Nessun server, nessuna dipendenza esterna: solo Python e la sua libreria standar
 | `DIGEST_HOUR` | `20` | Ora (0-23, ora italiana) del riepilogo serale; `off` lo disattiva. Variabile di repository opzionale. |
 | `DIGEST_MAX` | `10` | Notizie massime nel riepilogo. Variabile di repository opzionale. |
 | `DIGEST_FORCE` | `0` | `1` invia subito il riepilogo di oggi (input `send_digest_now`); vale come riepilogo del giorno. |
+| `QUIET_HOURS` | `22-7` | Fascia oraria (ora italiana) con notifiche silenziose, inizio incluso e fine esclusa; `off` la disattiva. Variabile di repository opzionale. |
 | `TELEGRAM_API_URL` | `https://api.telegram.org` | Solo per i test end-to-end. |
 
 ## Workflow
 
 `.github/workflows/rss-to-telegram.yml`:
 
-- gira ogni 15 minuti (`*/15 * * * *`) e a mano da **Actions → RSS to Telegram → Run workflow**, con gli
+- gira ogni 5 minuti (`*/5 * * * *`, il minimo consentito da GitHub) e a mano da **Actions → RSS to Telegram → Run workflow**, con gli
   input `dry_run`, `bootstrap_send_last` e `send_digest_now` (con `dry_run` mostra solo l'anteprima
   del riepilogo);
 - `concurrency` senza cancellazione dei run in corso, `timeout-minutes: 10`;

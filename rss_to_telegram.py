@@ -12,6 +12,8 @@ Usa solo la libreria standard. Configurazione tramite variabili d'ambiente:
   DIGEST_HOUR          ora (0-23, ora italiana) del riepilogo serale; "off" lo disattiva (default 20)
   DIGEST_MAX           notizie massime nel riepilogo (default 10)
   DIGEST_FORCE=1       invia subito il riepilogo di oggi (vale come riepilogo del giorno)
+  QUIET_HOURS          fascia oraria (ora italiana) con notifiche silenziose, es. "22-7";
+                       "off" la disattiva (default 22-7)
   TELEGRAM_API_URL     base URL dell'API Telegram (solo per i test)
 
 Ogni notizia riceve gli hashtag dei comuni lucani citati (vedi comuni.py). Una volta al
@@ -55,6 +57,7 @@ DEFAULT_DIGEST_HOUR = 20
 DEFAULT_DIGEST_MAX = 10
 RECENT_KEEP = timedelta(hours=48)   # quanto conservare titoli e link per il riepilogo
 TELEGRAM_MAX_CHARS = 4096
+DEFAULT_QUIET_HOURS = "22-7"
 MESI = ("gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto",
         "settembre", "ottobre", "novembre", "dicembre")
 
@@ -277,10 +280,11 @@ def _json_body(raw):
 
 
 class TelegramClient:
-    def __init__(self, token, chat_id, api_url=DEFAULT_API_URL, sleep=time.sleep):
+    def __init__(self, token, chat_id, api_url=DEFAULT_API_URL, sleep=time.sleep, silent=False):
         self._url = "%s/bot%s/sendMessage" % (api_url.rstrip("/"), token)
         self.chat_id = chat_id
         self.sleep = sleep
+        self.silent = silent
 
     def send_message(self, text, preview=True):
         params = {
@@ -288,8 +292,13 @@ class TelegramClient:
             "text": text,
             "parse_mode": "HTML",
         }
-        if not preview:
+        if preview:
+            # anteprima del link con l'immagine grande: attira piu' clic e inoltri
+            params["link_preview_options"] = json.dumps({"prefer_large_media": True})
+        else:
             params["link_preview_options"] = json.dumps({"is_disabled": True})
+        if self.silent:
+            params["disable_notification"] = "true"
         body = urllib.parse.urlencode(params).encode("utf-8")
         last_error = None
         for attempt in range(1, SEND_ATTEMPTS + 1):
@@ -360,7 +369,19 @@ def load_config(env):
     if digest_max < 1:
         raise ConfigError("DIGEST_MAX deve essere un intero >= 1, ricevuto %r" % raw_max)
 
+    raw_quiet = get("QUIET_HOURS", DEFAULT_QUIET_HOURS).lower()
+    if raw_quiet in ("off", "no", "false"):
+        quiet_hours = None
+    else:
+        match = re.fullmatch(r"(\d{1,2})\s*-\s*(\d{1,2})", raw_quiet)
+        quiet_hours = (int(match.group(1)), int(match.group(2))) if match else None
+        if (quiet_hours is None or not all(0 <= h <= 23 for h in quiet_hours)
+                or quiet_hours[0] == quiet_hours[1]):
+            raise ConfigError("QUIET_HOURS deve essere del tipo '22-7' (ore 0-23, diverse) oppure 'off', "
+                              "ricevuto %r" % raw_quiet)
+
     config = {
+        "quiet_hours": quiet_hours,
         "digest_hour": digest_hour,
         "digest_max": digest_max,
         "digest_force": get("DIGEST_FORCE", "0").lower() in ("1", "true", "yes", "on"),
@@ -486,6 +507,17 @@ def run_digest(config, sent_ids, extra, send, now):
     return 0
 
 
+def in_quiet_hours(now, quiet_hours):
+    """True se l'ora italiana di `now` cade nella fascia silenziosa (inizio incluso, fine esclusa)."""
+    if not quiet_hours:
+        return False
+    start, end = quiet_hours
+    hour = now.astimezone(LOCAL_TZ).hour
+    if start < end:
+        return start <= hour < end
+    return hour >= start or hour < end
+
+
 def main(env=None, sleep=time.sleep, now=None):
     env = os.environ if env is None else env
     token = (env.get("TELEGRAM_BOT_TOKEN") or "").strip()
@@ -493,7 +525,11 @@ def main(env=None, sleep=time.sleep, now=None):
         _SECRETS.append(token)
     try:
         config = load_config(env)
-        client = TelegramClient(config["token"], config["chat_id"], config["api_url"], sleep)
+        now = now or datetime.now(timezone.utc)
+        silent = in_quiet_hours(now, config["quiet_hours"])
+        if silent:
+            log("Fascia notturna: i messaggi escono senza notifica sonora")
+        client = TelegramClient(config["token"], config["chat_id"], config["api_url"], sleep, silent=silent)
         return run(config, client.send_message, sleep,
                    send_digest=lambda text: client.send_message(text, preview=False), now=now)
     except (ConfigError, FeedError, StateError, TelegramError) as exc:
