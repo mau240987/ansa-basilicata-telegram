@@ -188,15 +188,14 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/10/sanita-il-comitato-di-tricarico-chiarezza-sul-futuro-dellospedale-mazzarone_a6304561-2013-4e20-9cb7-471471d2ca00.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/10/siemens-mobility-acquisisce-tecnologie-mermec-rete-ferroviaria-piu-affidabile_3ed885d7-8af6-4805-9032-e9b0c37d8382.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/10/novembre-mese-per-la-parita-di-genere-anche-al-supermercato_fec76ccf-5840-401a-ba61-0b2691036386.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/10/vertenza-callmat-bardi-al-lavoro-per-un-piano-strutturale-e-duraturo_9d627606-267d-4473-9ec1-0622cc6deaf8.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/10/vertenza-callmat-bardi-al-lavoro-per-un-piano-strutturale-e-duraturo_9d627606-267d-4473-9ec1-0622cc6deaf8.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/11/ponte-musmeci-ponzo-istituzioni-e-comunita-scientifica-collaborino_4042c0e5-df2e-470b-b804-8b936d7106ae.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/11/bochicchio-la-crescita-della-basilicata-non-produce-lo-stesso-effetto-su-tutti_8f594fc2-6760-48a7-86e3-f8e40071ace5.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/11/vandali-in-azione-a-matera-imbrattata-edicola-e-danni-al-defibrillatore_b24ca185-31cc-4aaf-9c18-4c5ad2e5f071.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/11/amendola-pd-grave-che-la-destra-bocci-la-riapertura-dei-tribunali-lucani_feb587ea-9f71-487d-a332-6a8aadcd9da3.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/11/gentile-confartigianato-basilicata-servono-capofila-per-generare-la-domanda_e4333a06-97a1-43b3-83a8-9a272be624ce.html"
   ],
   "recent": [
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/09/latronico-leredita-della-magna-grecia-e-una-risorsa-viva_8769e7f4-d4a9-4f63-928a-730f4333b53b.html",
-      "title": "Latronico, l'eredità della Magna Grecia è una risorsa viva",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/09/latronico-leredita-della-magna-grecia-e-una-risorsa-viva_8769e7f4-d4a9-4f63-928a-730f4333b53b.html",
-      "sent_at": "2026-11-09T09:07:41+00:00"
-    },
     {
       "id": "https://www.ansa.it/basilicata/notizie/2026/11/09/immigrazione-bochicchio-attuare-legge-e-attivare-osservatorio_6ffd1199-8e34-4cf5-9b28-c1924c61e30c.html",
       "title": "Immigrazione: Bochicchio, attuare legge e attivare Osservatorio",
@@ -436,6 +435,36 @@
       "title": "Vertenza Callmat: Bardi, al lavoro per un piano strutturale e duraturo",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/10/vertenza-callmat-bardi-al-lavoro-per-un-piano-strutturale-e-duraturo_9d627606-267d-4473-9ec1-0622cc6deaf8.html",
       "sent_at": "2026-11-10T23:20:38+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/11/ponte-musmeci-ponzo-istituzioni-e-comunita-scientifica-collaborino_4042c0e5-df2e-470b-b804-8b936d7106ae.html",
+      "title": "Ponte Musmeci: Ponzo, istituzioni e comunità scientifica collaborino",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/11/ponte-musmeci-ponzo-istituzioni-e-comunita-scientifica-collaborino_4042c0e5-df2e-470b-b804-8b936d7106ae.html",
+      "sent_at": "2026-11-11T10:21:42+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/11/bochicchio-la-crescita-della-basilicata-non-produce-lo-stesso-effetto-su-tutti_8f594fc2-6760-48a7-86e3-f8e40071ace5.html",
+      "title": "Bochicchio, la crescita della Basilicata non produce lo stesso effetto su tutti",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/11/bochicchio-la-crescita-della-basilicata-non-produce-lo-stesso-effetto-su-tutti_8f594fc2-6760-48a7-86e3-f8e40071ace5.html",
+      "sent_at": "2026-11-11T10:21:42+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/11/vandali-in-azione-a-matera-imbrattata-edicola-e-danni-al-defibrillatore_b24ca185-31cc-4aaf-9c18-4c5ad2e5f071.html",
+      "title": "Vandali in azione a Matera, imbrattata edicola e danni al defibrillatore",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/11/vandali-in-azione-a-matera-imbrattata-edicola-e-danni-al-defibrillatore_b24ca185-31cc-4aaf-9c18-4c5ad2e5f071.html",
+      "sent_at": "2026-11-11T10:21:42+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/11/amendola-pd-grave-che-la-destra-bocci-la-riapertura-dei-tribunali-lucani_feb587ea-9f71-487d-a332-6a8aadcd9da3.html",
+      "title": "Amendola (Pd), grave che la destra bocci la riapertura dei tribunali lucani",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/11/amendola-pd-grave-che-la-destra-bocci-la-riapertura-dei-tribunali-lucani_feb587ea-9f71-487d-a332-6a8aadcd9da3.html",
+      "sent_at": "2026-11-11T10:21:42+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/11/gentile-confartigianato-basilicata-servono-capofila-per-generare-la-domanda_e4333a06-97a1-43b3-83a8-9a272be624ce.html",
+      "title": "Gentile (Confartigianato Basilicata), servono capofila per generare la domanda",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/11/gentile-confartigianato-basilicata-servono-capofila-per-generare-la-domanda_e4333a06-97a1-43b3-83a8-9a272be624ce.html",
+      "sent_at": "2026-11-11T10:21:42+00:00"
     }
   ],
   "last_digest": "2026-11-09"
