@@ -251,15 +251,12 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/13/dai-carabinieri-di-matera-quattro-coperte-contro-la-violenza-di-genere_3bc0157a-6cb3-40c4-b517-a713f3fef945.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/13/m5s-basilicata-in-piazza-il-28-novembre-per-il-punto-nascita-di-melfi_b56405a2-2975-48f9-90e5-452c604791f4.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/13/riaccolto-al-supermercato-la-passata-di-pomodoro-da-agricoltura-sociale_21e43bd5-24a1-4fba-8169-af9dd2eb9024.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/13/poverta-bochicchio-in-basilicata-serve-un-programma-staordinario_a453edc3-4d3f-4f2d-b679-f212125eb371.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/13/poverta-bochicchio-in-basilicata-serve-un-programma-staordinario_a453edc3-4d3f-4f2d-b679-f212125eb371.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/14/lacorazza-pd-in-basilicata-un-piano-regionale-delleconomia-sociale-e-civile_54d2da05-ff49-460f-8000-af37b5e35872.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/14/manovra-la-mobilitazione-della-uil-in-basilicata-il-27-novembre-a-tito_20072b64-de0b-4f22-9677-ebc0d2d628e1.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/14/capitale-della-cultura-2031-prosegue-il-lavoro-per-il-dossier-di-melfi_b1308f51-662b-466c-b6a0-372412951c3a.html"
   ],
   "recent": [
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/12/in-basilicata-in-dieci-anni-si-sono-persi-oltre-un-quinto-degli-alunni-della_86efdd93-bb5b-402a-b3d7-1cc4d728be70.html",
-      "title": "In Basilicata in dieci anni si sono persi oltre un quinto degli alunni della primaria",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/12/in-basilicata-in-dieci-anni-si-sono-persi-oltre-un-quinto-degli-alunni-della_86efdd93-bb5b-402a-b3d7-1cc4d728be70.html",
-      "sent_at": "2026-11-12T07:37:44+00:00"
-    },
     {
       "id": "https://www.ansa.it/basilicata/notizie/2026/11/12/dissesto-idrogeologico-verri-sbloccare-i-fondi-per-via-vespucci-a-pisticci_ed90446f-9d42-4c16-b2ee-743198a3a7fc.html",
       "title": "Dissesto idrogeologico: Verri, sbloccare i fondi per via Vespucci a Pisticci",
@@ -499,6 +496,24 @@
       "title": "Povertà: Bochicchio, in Basilicata serve un programma staordinario",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/13/poverta-bochicchio-in-basilicata-serve-un-programma-staordinario_a453edc3-4d3f-4f2d-b679-f212125eb371.html",
       "sent_at": "2026-11-13T18:04:39+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/14/lacorazza-pd-in-basilicata-un-piano-regionale-delleconomia-sociale-e-civile_54d2da05-ff49-460f-8000-af37b5e35872.html",
+      "title": "Lacorazza (Pd), in Basilicata un Piano regionale dell'economia sociale e civile",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/14/lacorazza-pd-in-basilicata-un-piano-regionale-delleconomia-sociale-e-civile_54d2da05-ff49-460f-8000-af37b5e35872.html",
+      "sent_at": "2026-11-14T10:57:06+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/14/manovra-la-mobilitazione-della-uil-in-basilicata-il-27-novembre-a-tito_20072b64-de0b-4f22-9677-ebc0d2d628e1.html",
+      "title": "Manovra, la mobilitazione della Uil in Basilicata il 27 novembre a Tito",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/14/manovra-la-mobilitazione-della-uil-in-basilicata-il-27-novembre-a-tito_20072b64-de0b-4f22-9677-ebc0d2d628e1.html",
+      "sent_at": "2026-11-14T10:57:06+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/14/capitale-della-cultura-2031-prosegue-il-lavoro-per-il-dossier-di-melfi_b1308f51-662b-466c-b6a0-372412951c3a.html",
+      "title": "Capitale della Cultura 2031', prosegue il lavoro per il dossier di Melfi",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/14/capitale-della-cultura-2031-prosegue-il-lavoro-per-il-dossier-di-melfi_b1308f51-662b-466c-b6a0-372412951c3a.html",
+      "sent_at": "2026-11-14T10:57:06+00:00"
     }
   ],
   "last_digest": "2026-11-12"
