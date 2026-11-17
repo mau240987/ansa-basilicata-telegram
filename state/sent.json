@@ -274,7 +274,9 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/16/spi-cgil-le-rivendicazioni-su-pensioni-e-sanita-in-piazza-a-matera_b79231ac-a2b5-4f99-a969-f9cc20f64d2a.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/16/col-progetto-telu-la-conoscenza-dei-terremoti-diventa-esperienza_d51a4242-0524-4a77-b643-c040884c8120.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/16/m5s-un-tavolo-tecnico-regionale-permanente-per-gli-ex-rmi-e-tsi_9ced3be2-82c7-4bfa-bf6d-10e56d5ca3f8.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/16/casa-domotica-a-potenza-un-primo-confronto-tra-comune-e-regione_64271222-783d-4236-94c9-ecd167270c28.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/16/casa-domotica-a-potenza-un-primo-confronto-tra-comune-e-regione_64271222-783d-4236-94c9-ecd167270c28.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/17/gdf-potenza-sequestrati-oltre-1.200-litri-di-gasolio-agevolato-per-lagricoltura_e2258652-89b4-48bd-8206-7bc85a1b7fbb.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/17/latronico-per-la-sanita-lucana-centrale-il-ruolo-delle-nuove-case-di-comunita_681c5ed2-50ad-49c6-a0dd-8e8ac2c83465.html"
   ],
   "recent": [
     {
@@ -372,6 +374,18 @@
       "title": "Casa domotica a Potenza, un primo confronto tra Comune e Regione",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/casa-domotica-a-potenza-un-primo-confronto-tra-comune-e-regione_64271222-783d-4236-94c9-ecd167270c28.html",
       "sent_at": "2026-11-17T00:44:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/17/gdf-potenza-sequestrati-oltre-1.200-litri-di-gasolio-agevolato-per-lagricoltura_e2258652-89b4-48bd-8206-7bc85a1b7fbb.html",
+      "title": "Gdf Potenza, sequestrati oltre 1.200 litri di gasolio agevolato per l'agricoltura",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/17/gdf-potenza-sequestrati-oltre-1.200-litri-di-gasolio-agevolato-per-lagricoltura_e2258652-89b4-48bd-8206-7bc85a1b7fbb.html",
+      "sent_at": "2026-11-17T08:32:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/17/latronico-per-la-sanita-lucana-centrale-il-ruolo-delle-nuove-case-di-comunita_681c5ed2-50ad-49c6-a0dd-8e8ac2c83465.html",
+      "title": "Latronico, per la sanità lucana centrale il ruolo delle nuove Case di comunità",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/17/latronico-per-la-sanita-lucana-centrale-il-ruolo-delle-nuove-case-di-comunita_681c5ed2-50ad-49c6-a0dd-8e8ac2c83465.html",
+      "sent_at": "2026-11-17T08:32:26+00:00"
     }
   ],
   "last_digest": "2026-11-15"
