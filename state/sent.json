@@ -272,7 +272,9 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/16/sp3-in-sicurezza-puo-riaprire-la-strada-tra-maratea-e-trecchina_c082e70f-78b7-4652-9352-039c6d7345f4.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/16/lacorazza-a-manca-nel-potentino-sono-state-cambiate-le-regole_af1489db-6cca-471e-ab33-336e64e17715.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/16/spi-cgil-le-rivendicazioni-su-pensioni-e-sanita-in-piazza-a-matera_b79231ac-a2b5-4f99-a969-f9cc20f64d2a.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/16/col-progetto-telu-la-conoscenza-dei-terremoti-diventa-esperienza_d51a4242-0524-4a77-b643-c040884c8120.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/16/col-progetto-telu-la-conoscenza-dei-terremoti-diventa-esperienza_d51a4242-0524-4a77-b643-c040884c8120.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/16/m5s-un-tavolo-tecnico-regionale-permanente-per-gli-ex-rmi-e-tsi_9ced3be2-82c7-4bfa-bf6d-10e56d5ca3f8.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/16/casa-domotica-a-potenza-un-primo-confronto-tra-comune-e-regione_64271222-783d-4236-94c9-ecd167270c28.html"
   ],
   "recent": [
     {
@@ -358,6 +360,18 @@
       "title": "Col progetto TeLù la conoscenza dei terremoti diventa esperienza",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/col-progetto-telu-la-conoscenza-dei-terremoti-diventa-esperienza_d51a4242-0524-4a77-b643-c040884c8120.html",
       "sent_at": "2026-11-16T17:00:01+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/m5s-un-tavolo-tecnico-regionale-permanente-per-gli-ex-rmi-e-tsi_9ced3be2-82c7-4bfa-bf6d-10e56d5ca3f8.html",
+      "title": "M5S, un tavolo tecnico regionale permanente per gli ex Rmi e Tsi",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/m5s-un-tavolo-tecnico-regionale-permanente-per-gli-ex-rmi-e-tsi_9ced3be2-82c7-4bfa-bf6d-10e56d5ca3f8.html",
+      "sent_at": "2026-11-17T00:44:23+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/casa-domotica-a-potenza-un-primo-confronto-tra-comune-e-regione_64271222-783d-4236-94c9-ecd167270c28.html",
+      "title": "Casa domotica a Potenza, un primo confronto tra Comune e Regione",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/casa-domotica-a-potenza-un-primo-confronto-tra-comune-e-regione_64271222-783d-4236-94c9-ecd167270c28.html",
+      "sent_at": "2026-11-17T00:44:23+00:00"
     }
   ],
   "last_digest": "2026-11-15"
