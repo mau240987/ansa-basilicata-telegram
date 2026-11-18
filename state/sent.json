@@ -291,7 +291,12 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/17/gallo-apre-la-sesta-edizione-della-rassegna-sartoria-teatrale-di-potenza_06918cf1-d8ca-4771-af55-da7d97054443.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/17/corruzione-a-potenza-riesame-no-ai-domiciliari-per-assessore-comunale_34aaea6a-7a23-4a2e-bb9e-7f55174dd398.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/17/natale-a-potenza-con-670-appuntamenti-dal-villaggio-agli-eventi-musicali_e2a35952-4e7b-4baf-9c2c-719710ee7006.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/17/cicala-passi-avanti-per-il-contratto-della-forestazione-lucana_b098f0e4-23c9-4774-a15a-5273775d0fd2.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/17/cicala-passi-avanti-per-il-contratto-della-forestazione-lucana_b098f0e4-23c9-4774-a15a-5273775d0fd2.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/17/lega-basilicata-sulle-scelte-energetiche-giusto-chiedere-un-ruolo-incisivo_affac2bf-1c2d-4a44-b46c-64237ab793a6.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/17/energia-bochicchio-difendiamo-imprese-e-lavoro-dal-caro-carburanti_747cd53c-a60a-431d-941c-0927f4ba0b0d.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/17/m5s-dalle-parole-di-bardi-e-mongiello-emerge-il-paradosso-lucano_5dd62c8e-689a-4384-9668-d502206a2d5e.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/17/in-basilicata-costituita-la-commissione-dellordinamento-penitenziario_f0d3da39-46b2-4d31-b914-168959e1de73.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/17/assessore-latronico-la-sanita-lucana-regge-e-investe-sul-futuro_9c5f4518-4367-4989-aa12-f194aa63373f.html"
   ],
   "recent": [
     {
@@ -491,6 +496,36 @@
       "title": "Cicala, passi avanti per il contratto della forestazione lucana",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/17/cicala-passi-avanti-per-il-contratto-della-forestazione-lucana_b098f0e4-23c9-4774-a15a-5273775d0fd2.html",
       "sent_at": "2026-11-17T17:53:26+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/17/lega-basilicata-sulle-scelte-energetiche-giusto-chiedere-un-ruolo-incisivo_affac2bf-1c2d-4a44-b46c-64237ab793a6.html",
+      "title": "Lega Basilicata, sulle scelte energetiche giusto chiedere un ruolo incisivo",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/17/lega-basilicata-sulle-scelte-energetiche-giusto-chiedere-un-ruolo-incisivo_affac2bf-1c2d-4a44-b46c-64237ab793a6.html",
+      "sent_at": "2026-11-18T00:33:04+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/17/energia-bochicchio-difendiamo-imprese-e-lavoro-dal-caro-carburanti_747cd53c-a60a-431d-941c-0927f4ba0b0d.html",
+      "title": "Energia: Bochicchio, difendiamo imprese e lavoro dal caro carburanti",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/17/energia-bochicchio-difendiamo-imprese-e-lavoro-dal-caro-carburanti_747cd53c-a60a-431d-941c-0927f4ba0b0d.html",
+      "sent_at": "2026-11-18T00:33:04+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/17/m5s-dalle-parole-di-bardi-e-mongiello-emerge-il-paradosso-lucano_5dd62c8e-689a-4384-9668-d502206a2d5e.html",
+      "title": "M5S, dalle parole di Bardi e Mongiello emerge il paradosso lucano",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/17/m5s-dalle-parole-di-bardi-e-mongiello-emerge-il-paradosso-lucano_5dd62c8e-689a-4384-9668-d502206a2d5e.html",
+      "sent_at": "2026-11-18T00:33:04+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/17/in-basilicata-costituita-la-commissione-dellordinamento-penitenziario_f0d3da39-46b2-4d31-b914-168959e1de73.html",
+      "title": "In Basilicata costituita la Commissione dell'Ordinamento Penitenziario",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/17/in-basilicata-costituita-la-commissione-dellordinamento-penitenziario_f0d3da39-46b2-4d31-b914-168959e1de73.html",
+      "sent_at": "2026-11-18T00:33:04+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/17/assessore-latronico-la-sanita-lucana-regge-e-investe-sul-futuro_9c5f4518-4367-4989-aa12-f194aa63373f.html",
+      "title": "Assessore Latronico, la sanità lucana regge e investe sul futuro",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/17/assessore-latronico-la-sanita-lucana-regge-e-investe-sul-futuro_9c5f4518-4367-4989-aa12-f194aa63373f.html",
+      "sent_at": "2026-11-18T00:33:04+00:00"
     }
   ],
   "last_digest": "2026-11-15"
