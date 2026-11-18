@@ -296,93 +296,30 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/17/energia-bochicchio-difendiamo-imprese-e-lavoro-dal-caro-carburanti_747cd53c-a60a-431d-941c-0927f4ba0b0d.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/17/m5s-dalle-parole-di-bardi-e-mongiello-emerge-il-paradosso-lucano_5dd62c8e-689a-4384-9668-d502206a2d5e.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/17/in-basilicata-costituita-la-commissione-dellordinamento-penitenziario_f0d3da39-46b2-4d31-b914-168959e1de73.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/17/assessore-latronico-la-sanita-lucana-regge-e-investe-sul-futuro_9c5f4518-4367-4989-aa12-f194aa63373f.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/17/assessore-latronico-la-sanita-lucana-regge-e-investe-sul-futuro_9c5f4518-4367-4989-aa12-f194aa63373f.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/truffa-a-unanziana-a-matera-tre-giovani-foggiani-arrestati-dai-carabinieri_d69a30c9-181d-4248-b203-7269106a4a14.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/prostituzione-a-rionero-un-uomo-ai-domiciliari-e-sequestrati-253-mila-euro_a7acaa91-3448-4ef0-a5fe-2ae426989b57.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/ferrovie-bochicchio-basilicata-molto-indietro-su-alta-velocita-e-collegamenti_85a79790-3871-47bb-a1ed-daca1fe0f7e3.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/il-vescovo-fanelli-fragilita-e-poverta-richiedono-attenzione-istituzionale_080684a9-a80b-42bf-b76f-9bd2119dfca9.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/viabilita-nel-potentino-conclusi-lavori-sulla-sp-13-di-castelmezzano_7fc61a48-153c-4970-9131-31f831b2e982.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/salute-e-disabilita-latronico-mettiamo-la-persona-al-centro_77e988e2-d7e7-480f-acf4-8aeb1b1f5639.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/potenza-tre-interrogazioni-di-nardella-e-fanelli-su-viabilita-sicurezza-e-patrimonio_a585a332-4fca-4e1c-b0c4-2ef5027c7ba0.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/libri-da-matera-il-premio-energheia-a-caccia-di-nuovi-talenti-della-scrittura_cbdfeee4-33b8-40eb-a28e-83a2f8ee2782.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/basilicata-centrosinistra-dal-difensore-civico-una-sortita-stravagante_61218f63-4355-4f97-a46c-1c54f18c5743.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/natale-tagliato-a-terranova-di-pollino-labete-destinato-a-piazza-san-pietro_c6d4ab85-1a63-47f0-8787-6f187d89160d.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/riconoscimento-ministeriale-per-il-consorzio-di-tutela-della-fragola-lucana_54d08ca6-f85e-4a87-9793-d9125b454d4f.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/sud-chiama-nord-a-potenza-cateno-de-luca-e-laura-castelli_f4418f16-d122-4777-82b6-4e47cc6d86f7.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/prevenzione-e-contrasto-allo-spaccio-dinanzi-alle-scuole-un-protocollo-a-potenza_b935a81c-01ac-4922-ad1d-4db92d191792.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/il-consiglio-comunale-di-melfi-dice-no-alla-chiusura-del-punto-nascita_ae4d5218-c8ee-4966-b0d9-c8f82b4bb07e.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/chiorazzo-bardi-chiarisca-in-consiglio-sulle-scelte-energetiche_7ac305f4-72ba-4fa4-94cd-0cb2f9c8ce29.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/scuola-mentissi-giovani-sono-stanchi-di-una-politica-incapace-di-reinventarsi_936a06a4-b098-42a3-acbb-8a4703f5d23d.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/nel-potentino-un-bonus-carburante-fino-a-150-euro-per-combattere-il-caro_a3056760-d66c-4938-9909-44abd2ee6c4a.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/lacorazza-pd-la-basilicata-sullenergia-non-si-commissaria_f0577511-4fe6-4e9a-a40b-d0f87ec9475a.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/matera-accende-le-luminarie-di-natale-festa-tra-centro-storico-e-sassi_9870793c-dfdc-4ae9-8379-6cc2bed5a667.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/scontro-auto-tir-sulla-a2-nel-salernitano-morto-62enne_6d95e344-b714-4649-b645-3654137638c7.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/18/automotive-cupparo-la-regione-basilicata-e-pronta-a-fare-la-propria-parte_8301ef6f-186f-42fd-af21-2b5c26cf4e19.html"
   ],
   "recent": [
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/pd-basilicata-eletti-i-segretari-provinciali-ma-gia-si-annuncia-un-ricorso_3c644e7d-10d3-46d1-89b6-57e97ba0b38f.html",
-      "title": "Pd Basilicata, eletti i segretari provinciali ma si annuncia un ricorso",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/pd-basilicata-eletti-i-segretari-provinciali-ma-gia-si-annuncia-un-ricorso_3c644e7d-10d3-46d1-89b6-57e97ba0b38f.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/crisi-politica-a-matera-il-sindaco-prova-a-ricreare-un-governo-stabile_1a61fee4-55b3-4fd5-88b8-4f300f81960b.html",
-      "title": "Crisi politica a Matera, il sindaco prova a ricreare un governo stabile",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/crisi-politica-a-matera-il-sindaco-prova-a-ricreare-un-governo-stabile_1a61fee4-55b3-4fd5-88b8-4f300f81960b.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/desteenazione-giovani-di-basilicata-calabria-e-sicilia-a-confronto_cf5e63fa-9f3f-4673-95c6-fa4cf99405ed.html",
-      "title": "'DesTEENazione', giovani di Basilicata, Calabria e Sicilia a confronto",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/desteenazione-giovani-di-basilicata-calabria-e-sicilia-a-confronto_cf5e63fa-9f3f-4673-95c6-fa4cf99405ed.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/bochicchio-si-pensi-agli-stati-generali-delleconomia-lucana_632ac004-9f7c-41d2-bd5d-f2e4338dfe72.html",
-      "title": "Bochicchio, si pensi agli 'Stati generali dell'economia lucana'",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/bochicchio-si-pensi-agli-stati-generali-delleconomia-lucana_632ac004-9f7c-41d2-bd5d-f2e4338dfe72.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/telesca-contestazione-giustissima-ma-potenza-non-sta-cadendo-a-pezzi_3a5d8fe0-ce18-4a3f-be7c-70bb5b435e5f.html",
-      "title": "Telesca, contestazione giustissima ma Potenza non sta cadendo a pezzi",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/telesca-contestazione-giustissima-ma-potenza-non-sta-cadendo-a-pezzi_3a5d8fe0-ce18-4a3f-be7c-70bb5b435e5f.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/debito-record-per-spesa-sanitaria-pubblica-ma-i-lucani-pagano-le-cure-da-soli_3a25d49e-27cc-4120-b0a2-e1fc1984cc3b.html",
-      "title": "'Debito record per spesa sanitaria pubblica, ma i lucani pagano le cure da soli'",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/debito-record-per-spesa-sanitaria-pubblica-ma-i-lucani-pagano-le-cure-da-soli_3a25d49e-27cc-4120-b0a2-e1fc1984cc3b.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/ardsu-mensa-disponibile-anche-quando-luniversita-e-chiusa_6657f01d-f849-4604-9d4b-67c5d4c38898.html",
-      "title": "Ardsu, mensa disponibile anche quando l'università è chiusa",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/ardsu-mensa-disponibile-anche-quando-luniversita-e-chiusa_6657f01d-f849-4604-9d4b-67c5d4c38898.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/tra-potenza-e-denver-gemellaggio-che-si-rinforza-tra-i-fornelli_431b8237-a2b3-4633-a850-8092c050e11d.html",
-      "title": "Tra Potenza e Denver gemellaggio che si rinforza tra i fornelli",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/tra-potenza-e-denver-gemellaggio-che-si-rinforza-tra-i-fornelli_431b8237-a2b3-4633-a850-8092c050e11d.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/dalla-basilicata-i-nuovi-motori-a-propulsione-ibrida-per-la-nautica-sostenibile_1e452b93-e52c-4cac-9c96-2e3fd2b39c98.html",
-      "title": "Dalla Basilicata i nuovi motori a propulsione ibrida per la nautica sostenibile",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/dalla-basilicata-i-nuovi-motori-a-propulsione-ibrida-per-la-nautica-sostenibile_1e452b93-e52c-4cac-9c96-2e3fd2b39c98.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/pd-basilicata-manca-dobbiamo-ripartire-dalla-comunita-dei-dem_7775b464-675b-4830-8ca0-2d1da36b4453.html",
-      "title": "Pd Basilicata: Manca, dobbiamo ripartire dalla comunità dei dem",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/pd-basilicata-manca-dobbiamo-ripartire-dalla-comunita-dei-dem_7775b464-675b-4830-8ca0-2d1da36b4453.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/sp3-in-sicurezza-puo-riaprire-la-strada-tra-maratea-e-trecchina_c082e70f-78b7-4652-9352-039c6d7345f4.html",
-      "title": "Sp3 in sicurezza, può riaprire la strada tra Maratea e Trecchina",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/sp3-in-sicurezza-puo-riaprire-la-strada-tra-maratea-e-trecchina_c082e70f-78b7-4652-9352-039c6d7345f4.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/lacorazza-a-manca-nel-potentino-sono-state-cambiate-le-regole_af1489db-6cca-471e-ab33-336e64e17715.html",
-      "title": "Lacorazza a Manca, nel Potentino sono state cambiate le regole",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/lacorazza-a-manca-nel-potentino-sono-state-cambiate-le-regole_af1489db-6cca-471e-ab33-336e64e17715.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/spi-cgil-le-rivendicazioni-su-pensioni-e-sanita-in-piazza-a-matera_b79231ac-a2b5-4f99-a969-f9cc20f64d2a.html",
-      "title": "Spi Cgil, le rivendicazioni su pensioni e sanità in piazza a Matera",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/spi-cgil-le-rivendicazioni-su-pensioni-e-sanita-in-piazza-a-matera_b79231ac-a2b5-4f99-a969-f9cc20f64d2a.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
-    {
-      "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/col-progetto-telu-la-conoscenza-dei-terremoti-diventa-esperienza_d51a4242-0524-4a77-b643-c040884c8120.html",
-      "title": "Col progetto TeLù la conoscenza dei terremoti diventa esperienza",
-      "link": "https://www.ansa.it/basilicata/notizie/2026/11/16/col-progetto-telu-la-conoscenza-dei-terremoti-diventa-esperienza_d51a4242-0524-4a77-b643-c040884c8120.html",
-      "sent_at": "2026-11-16T17:00:01+00:00"
-    },
     {
       "id": "https://www.ansa.it/basilicata/notizie/2026/11/16/m5s-un-tavolo-tecnico-regionale-permanente-per-gli-ex-rmi-e-tsi_9ced3be2-82c7-4bfa-bf6d-10e56d5ca3f8.html",
       "title": "M5S, un tavolo tecnico regionale permanente per gli ex Rmi e Tsi",
@@ -526,6 +463,132 @@
       "title": "Assessore Latronico, la sanità lucana regge e investe sul futuro",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/17/assessore-latronico-la-sanita-lucana-regge-e-investe-sul-futuro_9c5f4518-4367-4989-aa12-f194aa63373f.html",
       "sent_at": "2026-11-18T00:33:04+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/truffa-a-unanziana-a-matera-tre-giovani-foggiani-arrestati-dai-carabinieri_d69a30c9-181d-4248-b203-7269106a4a14.html",
+      "title": "Truffa a un'anziana a Matera, tre giovani foggiani arrestati dai Carabinieri",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/truffa-a-unanziana-a-matera-tre-giovani-foggiani-arrestati-dai-carabinieri_d69a30c9-181d-4248-b203-7269106a4a14.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/prostituzione-a-rionero-un-uomo-ai-domiciliari-e-sequestrati-253-mila-euro_a7acaa91-3448-4ef0-a5fe-2ae426989b57.html",
+      "title": "Prostituzione a Rionero, un uomo ai domiciliari e sequestrati 253 mila euro",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/prostituzione-a-rionero-un-uomo-ai-domiciliari-e-sequestrati-253-mila-euro_a7acaa91-3448-4ef0-a5fe-2ae426989b57.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/ferrovie-bochicchio-basilicata-molto-indietro-su-alta-velocita-e-collegamenti_85a79790-3871-47bb-a1ed-daca1fe0f7e3.html",
+      "title": "Ferrovie: Bochicchio, Basilicata molto indietro su Alta Velocità e collegamenti",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/ferrovie-bochicchio-basilicata-molto-indietro-su-alta-velocita-e-collegamenti_85a79790-3871-47bb-a1ed-daca1fe0f7e3.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/il-vescovo-fanelli-fragilita-e-poverta-richiedono-attenzione-istituzionale_080684a9-a80b-42bf-b76f-9bd2119dfca9.html",
+      "title": "Il vescovo Fanelli, fragilità e povertà richiedono attenzione istituzionale",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/il-vescovo-fanelli-fragilita-e-poverta-richiedono-attenzione-istituzionale_080684a9-a80b-42bf-b76f-9bd2119dfca9.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/viabilita-nel-potentino-conclusi-lavori-sulla-sp-13-di-castelmezzano_7fc61a48-153c-4970-9131-31f831b2e982.html",
+      "title": "Viabilità nel Potentino, conclusi lavori sulla Sp 13 di Castelmezzano",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/viabilita-nel-potentino-conclusi-lavori-sulla-sp-13-di-castelmezzano_7fc61a48-153c-4970-9131-31f831b2e982.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/salute-e-disabilita-latronico-mettiamo-la-persona-al-centro_77e988e2-d7e7-480f-acf4-8aeb1b1f5639.html",
+      "title": "Salute e disabilità: Latronico, mettiamo la persona al centro",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/salute-e-disabilita-latronico-mettiamo-la-persona-al-centro_77e988e2-d7e7-480f-acf4-8aeb1b1f5639.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/potenza-tre-interrogazioni-di-nardella-e-fanelli-su-viabilita-sicurezza-e-patrimonio_a585a332-4fca-4e1c-b0c4-2ef5027c7ba0.html",
+      "title": "Potenza: tre interrogazioni di Nardella e Fanelli su viabilità, sicurezza e patrimonio",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/potenza-tre-interrogazioni-di-nardella-e-fanelli-su-viabilita-sicurezza-e-patrimonio_a585a332-4fca-4e1c-b0c4-2ef5027c7ba0.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/libri-da-matera-il-premio-energheia-a-caccia-di-nuovi-talenti-della-scrittura_cbdfeee4-33b8-40eb-a28e-83a2f8ee2782.html",
+      "title": "Libri: da Matera il Premio Energheia a caccia di nuovi talenti della scrittura",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/libri-da-matera-il-premio-energheia-a-caccia-di-nuovi-talenti-della-scrittura_cbdfeee4-33b8-40eb-a28e-83a2f8ee2782.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/basilicata-centrosinistra-dal-difensore-civico-una-sortita-stravagante_61218f63-4355-4f97-a46c-1c54f18c5743.html",
+      "title": "Basilicata: centrosinistra, dal Difensore Civico una sortita stravagante",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/basilicata-centrosinistra-dal-difensore-civico-una-sortita-stravagante_61218f63-4355-4f97-a46c-1c54f18c5743.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/natale-tagliato-a-terranova-di-pollino-labete-destinato-a-piazza-san-pietro_c6d4ab85-1a63-47f0-8787-6f187d89160d.html",
+      "title": "Natale: tagliato a Terranova di Pollino l'abete destinato a piazza San Pietro",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/natale-tagliato-a-terranova-di-pollino-labete-destinato-a-piazza-san-pietro_c6d4ab85-1a63-47f0-8787-6f187d89160d.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/riconoscimento-ministeriale-per-il-consorzio-di-tutela-della-fragola-lucana_54d08ca6-f85e-4a87-9793-d9125b454d4f.html",
+      "title": "Riconoscimento ministeriale per il Consorzio di Tutela della fragola lucana",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/riconoscimento-ministeriale-per-il-consorzio-di-tutela-della-fragola-lucana_54d08ca6-f85e-4a87-9793-d9125b454d4f.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/sud-chiama-nord-a-potenza-cateno-de-luca-e-laura-castelli_f4418f16-d122-4777-82b6-4e47cc6d86f7.html",
+      "title": "Sud chiama Nord: a Potenza Cateno De Luca e Laura Castelli",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/sud-chiama-nord-a-potenza-cateno-de-luca-e-laura-castelli_f4418f16-d122-4777-82b6-4e47cc6d86f7.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/prevenzione-e-contrasto-allo-spaccio-dinanzi-alle-scuole-un-protocollo-a-potenza_b935a81c-01ac-4922-ad1d-4db92d191792.html",
+      "title": "Prevenzione e contrasto allo spaccio dinanzi alle scuole, un protocollo a Potenza",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/prevenzione-e-contrasto-allo-spaccio-dinanzi-alle-scuole-un-protocollo-a-potenza_b935a81c-01ac-4922-ad1d-4db92d191792.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/il-consiglio-comunale-di-melfi-dice-no-alla-chiusura-del-punto-nascita_ae4d5218-c8ee-4966-b0d9-c8f82b4bb07e.html",
+      "title": "Il consiglio comunale di Melfi dice no alla chiusura del punto nascita",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/il-consiglio-comunale-di-melfi-dice-no-alla-chiusura-del-punto-nascita_ae4d5218-c8ee-4966-b0d9-c8f82b4bb07e.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/chiorazzo-bardi-chiarisca-in-consiglio-sulle-scelte-energetiche_7ac305f4-72ba-4fa4-94cd-0cb2f9c8ce29.html",
+      "title": "Chiorazzo, Bardi chiarisca in consiglio sulle scelte energetiche",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/chiorazzo-bardi-chiarisca-in-consiglio-sulle-scelte-energetiche_7ac305f4-72ba-4fa4-94cd-0cb2f9c8ce29.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/scuola-mentissi-giovani-sono-stanchi-di-una-politica-incapace-di-reinventarsi_936a06a4-b098-42a3-acbb-8a4703f5d23d.html",
+      "title": "Scuola: Mentissi, giovani sono stanchi di una politica incapace di reinventarsi",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/scuola-mentissi-giovani-sono-stanchi-di-una-politica-incapace-di-reinventarsi_936a06a4-b098-42a3-acbb-8a4703f5d23d.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/nel-potentino-un-bonus-carburante-fino-a-150-euro-per-combattere-il-caro_a3056760-d66c-4938-9909-44abd2ee6c4a.html",
+      "title": "Nel Potentino un bonus carburante fino a 150 euro per combattere il caro benzina",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/nel-potentino-un-bonus-carburante-fino-a-150-euro-per-combattere-il-caro_a3056760-d66c-4938-9909-44abd2ee6c4a.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/lacorazza-pd-la-basilicata-sullenergia-non-si-commissaria_f0577511-4fe6-4e9a-a40b-d0f87ec9475a.html",
+      "title": "Lacorazza (Pd), la Basilicata sull'energia non si commissaria",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/lacorazza-pd-la-basilicata-sullenergia-non-si-commissaria_f0577511-4fe6-4e9a-a40b-d0f87ec9475a.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/matera-accende-le-luminarie-di-natale-festa-tra-centro-storico-e-sassi_9870793c-dfdc-4ae9-8379-6cc2bed5a667.html",
+      "title": "Matera accende le luminarie di Natale, festa tra centro storico e Sassi",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/matera-accende-le-luminarie-di-natale-festa-tra-centro-storico-e-sassi_9870793c-dfdc-4ae9-8379-6cc2bed5a667.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/scontro-auto-tir-sulla-a2-nel-salernitano-morto-62enne_6d95e344-b714-4649-b645-3654137638c7.html",
+      "title": "Scontro auto-tir sulla A2 nel Salernitano, morto 62enne",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/scontro-auto-tir-sulla-a2-nel-salernitano-morto-62enne_6d95e344-b714-4649-b645-3654137638c7.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/18/automotive-cupparo-la-regione-basilicata-e-pronta-a-fare-la-propria-parte_8301ef6f-186f-42fd-af21-2b5c26cf4e19.html",
+      "title": "Automotive: Cupparo, la Regione Basilicata è pronta a fare la propria parte",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/18/automotive-cupparo-la-regione-basilicata-e-pronta-a-fare-la-propria-parte_8301ef6f-186f-42fd-af21-2b5c26cf4e19.html",
+      "sent_at": "2026-11-18T17:02:22+00:00"
     }
   ],
   "last_digest": "2026-11-15"
