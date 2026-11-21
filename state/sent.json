@@ -372,7 +372,10 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/21/de-gennaro-bardi-un-momento-di-grande-dolore_c5fb6d5e-dc7e-46e3-8218-a2653ff6e297.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/21/terremoti-la-regione-basilicata-al-lavoro-per-sbloccare-risorse-per-45-millioni_bbf5034a-5efe-46d8-88b3-4bd49949dd9c.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/21/viva-vittoria-a-matera-la-polizia-al-fianco-del-progetto-solidale_bff5d20c-12cd-4730-b3dc-afe60bd98133.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/21/zes-unica-dal-governo-5-milioni-e-215-mila-euro-a-matera-per_f24ff2f9-c924-4075-adbc-54bc0efa7a8e.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/21/zes-unica-dal-governo-5-milioni-e-215-mila-euro-a-matera-per_f24ff2f9-c924-4075-adbc-54bc0efa7a8e.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/21/pd-basilicata-lacorazza-convinto-e-leale-sostegno-a-rutigliano_94ca8c15-a104-487c-84e3-c8e8f5355be7.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/21/pd-basilicata-rutigliano-il-partito-ce-forte-e-unito_3237c461-77e2-49cc-9cd8-d3f5f162491b.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/21/contro-pregiudizi-e-stereotipi-arriva-la-guida-al-linguaggio-inclusivo_3eb4bb58-e5eb-4b06-839e-b3f32be48a43.html"
   ],
   "recent": [
     {
@@ -620,7 +623,25 @@
       "title": "Zes Unica, dal Governo 5 milioni e 215 mila euro a Matera per le aree produttive",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/21/zes-unica-dal-governo-5-milioni-e-215-mila-euro-a-matera-per_f24ff2f9-c924-4075-adbc-54bc0efa7a8e.html",
       "sent_at": "2026-11-21T15:39:13+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/21/pd-basilicata-lacorazza-convinto-e-leale-sostegno-a-rutigliano_94ca8c15-a104-487c-84e3-c8e8f5355be7.html",
+      "title": "Pd Basilicata: Lacorazza, convinto e leale sostegno a Rutigliano",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/21/pd-basilicata-lacorazza-convinto-e-leale-sostegno-a-rutigliano_94ca8c15-a104-487c-84e3-c8e8f5355be7.html",
+      "sent_at": "2026-11-21T21:11:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/21/pd-basilicata-rutigliano-il-partito-ce-forte-e-unito_3237c461-77e2-49cc-9cd8-d3f5f162491b.html",
+      "title": "Pd Basilicata: Rutigliano 'il partito c'è, forte e unito'",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/21/pd-basilicata-rutigliano-il-partito-ce-forte-e-unito_3237c461-77e2-49cc-9cd8-d3f5f162491b.html",
+      "sent_at": "2026-11-21T21:11:22+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/21/contro-pregiudizi-e-stereotipi-arriva-la-guida-al-linguaggio-inclusivo_3eb4bb58-e5eb-4b06-839e-b3f32be48a43.html",
+      "title": "Contro pregiudizi e stereotipi arriva la Guida al linguaggio inclusivo",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/21/contro-pregiudizi-e-stereotipi-arriva-la-guida-al-linguaggio-inclusivo_3eb4bb58-e5eb-4b06-839e-b3f32be48a43.html",
+      "sent_at": "2026-11-21T21:11:22+00:00"
     }
   ],
-  "last_digest": "2026-11-19"
+  "last_digest": "2026-11-21"
 }
