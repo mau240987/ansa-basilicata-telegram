@@ -376,7 +376,15 @@
     "https://www.ansa.it/basilicata/notizie/2026/11/21/pd-basilicata-lacorazza-convinto-e-leale-sostegno-a-rutigliano_94ca8c15-a104-487c-84e3-c8e8f5355be7.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/21/pd-basilicata-rutigliano-il-partito-ce-forte-e-unito_3237c461-77e2-49cc-9cd8-d3f5f162491b.html",
     "https://www.ansa.it/basilicata/notizie/2026/11/21/contro-pregiudizi-e-stereotipi-arriva-la-guida-al-linguaggio-inclusivo_3eb4bb58-e5eb-4b06-839e-b3f32be48a43.html",
-    "https://www.ansa.it/basilicata/notizie/2026/11/22/auto-si-ribalta-nel-nord-barese-muore-un-17enne-e-altri-tre-feriti_5bc16b0a-2d83-43b9-a853-fab9e5d2c039.html"
+    "https://www.ansa.it/basilicata/notizie/2026/11/22/auto-si-ribalta-nel-nord-barese-muore-un-17enne-e-altri-tre-feriti_5bc16b0a-2d83-43b9-a853-fab9e5d2c039.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/23/mongiello-con-la-lucana-albano-si-rafforza-il-dialogo-con-shell-italia_3a9cecc7-fe31-42d4-8f54-367235939140.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/23/a-potenza-la-politica-di-rimpatrio-italiana-nel-report-espulsioni_589f688e-b5d5-45c4-89a9-601959c98f2b.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/23/antonio-salvatore-dai-profumi-dei-vicoli-lucani-alla-stella-michelin_6eba54ef-a3a4-4bb5-ae7d-dcc14f7060ee.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/23/bochicchio-la-basilicata-si-restringe-si-impoverisce-e-invecchia_a53e4fb7-f3ea-401d-af16-2af4929bfb61.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/23/tortorelli-un-nuovo-sviluppo-regionale-partendo-dalle-conquiste-post-terremoto_6671b6a9-d522-437c-998d-76a2508666d8.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/23/sisma-80-picerno-sbloccare-i-fondi-ancora-inutilizzati_cbf026fa-4460-412a-b4f7-3739abc10254.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/23/fdi-su-acquedotto-lucano-scelte-inefficaci-e-209-milioni-di-debito_ae435a13-0d54-4fe3-97fc-0bbef0cd9414.html",
+    "https://www.ansa.it/basilicata/notizie/2026/11/23/black-friday-un-lucano-su-tre-fara-acquisti-e-spendera-in-media-268-euro_1e1865c0-2c73-4250-a330-69fe1e0360e0.html"
   ],
   "recent": [
     {
@@ -468,6 +476,54 @@
       "title": "Auto si ribalta nel nord Barese, muore un 17enne e altri tre feriti",
       "link": "https://www.ansa.it/basilicata/notizie/2026/11/22/auto-si-ribalta-nel-nord-barese-muore-un-17enne-e-altri-tre-feriti_5bc16b0a-2d83-43b9-a853-fab9e5d2c039.html",
       "sent_at": "2026-11-22T16:38:10+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/23/mongiello-con-la-lucana-albano-si-rafforza-il-dialogo-con-shell-italia_3a9cecc7-fe31-42d4-8f54-367235939140.html",
+      "title": "Mongiello, con la lucana Albano si rafforza il dialogo con Shell Italia",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/23/mongiello-con-la-lucana-albano-si-rafforza-il-dialogo-con-shell-italia_3a9cecc7-fe31-42d4-8f54-367235939140.html",
+      "sent_at": "2026-11-23T11:20:32+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/23/a-potenza-la-politica-di-rimpatrio-italiana-nel-report-espulsioni_589f688e-b5d5-45c4-89a9-601959c98f2b.html",
+      "title": "A Potenza la politica di rimpatrio italiana nel report 'Espulsioni'",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/23/a-potenza-la-politica-di-rimpatrio-italiana-nel-report-espulsioni_589f688e-b5d5-45c4-89a9-601959c98f2b.html",
+      "sent_at": "2026-11-23T11:20:32+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/23/antonio-salvatore-dai-profumi-dei-vicoli-lucani-alla-stella-michelin_6eba54ef-a3a4-4bb5-ae7d-dcc14f7060ee.html",
+      "title": "Antonio Salvatore, dai profumi dei vicoli lucani alla stella Michelin",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/23/antonio-salvatore-dai-profumi-dei-vicoli-lucani-alla-stella-michelin_6eba54ef-a3a4-4bb5-ae7d-dcc14f7060ee.html",
+      "sent_at": "2026-11-23T11:20:32+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/23/bochicchio-la-basilicata-si-restringe-si-impoverisce-e-invecchia_a53e4fb7-f3ea-401d-af16-2af4929bfb61.html",
+      "title": "Bochicchio, 'la Basilicata si restringe, si impoverisce e invecchia'",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/23/bochicchio-la-basilicata-si-restringe-si-impoverisce-e-invecchia_a53e4fb7-f3ea-401d-af16-2af4929bfb61.html",
+      "sent_at": "2026-11-23T11:20:32+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/23/tortorelli-un-nuovo-sviluppo-regionale-partendo-dalle-conquiste-post-terremoto_6671b6a9-d522-437c-998d-76a2508666d8.html",
+      "title": "Tortorelli, un nuovo sviluppo regionale partendo dalle conquiste post terremoto",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/23/tortorelli-un-nuovo-sviluppo-regionale-partendo-dalle-conquiste-post-terremoto_6671b6a9-d522-437c-998d-76a2508666d8.html",
+      "sent_at": "2026-11-23T11:20:32+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/23/sisma-80-picerno-sbloccare-i-fondi-ancora-inutilizzati_cbf026fa-4460-412a-b4f7-3739abc10254.html",
+      "title": "Sisma '80: Picerno, sbloccare i fondi ancora inutilizzati",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/23/sisma-80-picerno-sbloccare-i-fondi-ancora-inutilizzati_cbf026fa-4460-412a-b4f7-3739abc10254.html",
+      "sent_at": "2026-11-23T11:20:32+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/23/fdi-su-acquedotto-lucano-scelte-inefficaci-e-209-milioni-di-debito_ae435a13-0d54-4fe3-97fc-0bbef0cd9414.html",
+      "title": "FdI, su Acquedotto Lucano scelte inefficaci e 209 milioni di debito",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/23/fdi-su-acquedotto-lucano-scelte-inefficaci-e-209-milioni-di-debito_ae435a13-0d54-4fe3-97fc-0bbef0cd9414.html",
+      "sent_at": "2026-11-23T11:20:32+00:00"
+    },
+    {
+      "id": "https://www.ansa.it/basilicata/notizie/2026/11/23/black-friday-un-lucano-su-tre-fara-acquisti-e-spendera-in-media-268-euro_1e1865c0-2c73-4250-a330-69fe1e0360e0.html",
+      "title": "Black Friday, un lucano su tre farà acquisti e spenderà in media 268 euro",
+      "link": "https://www.ansa.it/basilicata/notizie/2026/11/23/black-friday-un-lucano-su-tre-fara-acquisti-e-spendera-in-media-268-euro_1e1865c0-2c73-4250-a330-69fe1e0360e0.html",
+      "sent_at": "2026-11-23T11:20:32+00:00"
     }
   ],
   "last_digest": "2026-11-22"
